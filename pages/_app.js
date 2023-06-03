@@ -12,5 +12,6 @@ export default function App() {
     <React.Fragment>
       <Drawer />
       <Navbar />
-    </React.Fragment>);
+    </React.Fragment>
+  );
 };
