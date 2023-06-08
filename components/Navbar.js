@@ -8,10 +8,11 @@ import Menu from '@mui/material/Menu';
 import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import MenuItem from '@mui/material/MenuItem';
+import SettingsIcon from '@mui/icons-material/Settings';
+
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navbar() {
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
   const handleOpenUserMenu = (event) => {
@@ -24,16 +25,16 @@ function Navbar() {
 
   return (
     <AppBar position="relative" color="transparent" elevation={0}>
-      <Container maxWidth="xl">
-        <Toolbar variant="dense">
-          <Box sx={{ flexGrow: 1 }} />
+      <Toolbar variant="dense">
+        <Typography variant="h6" style={{ flexGrow: 1, whiteSpace: "nowrap" }}>
 
-          <Box sx={{ flexGrow: 0 }}>
-            {/* <Tooltip title="Open settings"> */}
-            <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-              <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-            </IconButton>
-            <Menu
+          Set with Friends
+        </Typography>
+
+        <IconButton onClick={handleOpenUserMenu} color="inherit">
+          <SettingsIcon />
+        </IconButton>
+        {/* <Menu
               sx={{ mt: '45px' }}
               id="menu-appbar"
               anchorEl={anchorElUser}
@@ -54,11 +55,9 @@ function Navbar() {
                   <Typography textAlign="center">{setting}</Typography>
                 </MenuItem>
               ))}
-            </Menu>
-          </Box>
-        </Toolbar>
-      </Container>
-    </AppBar>
+            </Menu> */}
+      </Toolbar>
+    </AppBar >
   );
 }
 export default Navbar;
