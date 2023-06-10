@@ -1,7 +1,15 @@
 import Input from '../components/InputMain'
-// todo, remove styles.css
+import Container from '@mui/material/Container'
 
 
 export default function WorkSpace(){
-    return <Input/>
+    return (
+    <Container size ='md'>
+
+        <Input/>
+    </Container>        
+    )
 }
+
+// Paper, Container
+// todo, remove styles.css
