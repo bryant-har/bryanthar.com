@@ -34,7 +34,7 @@ function Navbar() {
         <IconButton onClick={handleOpenUserMenu} color="inherit">
           <SettingsIcon />
         </IconButton>
-        {/* <Menu
+        <Menu
               sx={{ mt: '45px' }}
               id="menu-appbar"
               anchorEl={anchorElUser}
@@ -55,7 +55,7 @@ function Navbar() {
                   <Typography textAlign="center">{setting}</Typography>
                 </MenuItem>
               ))}
-            </Menu> */}
+            </Menu>
       </Toolbar>
     </AppBar >
   );
