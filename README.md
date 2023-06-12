@@ -1,2 +1,6 @@
-# unifiedMath
-npm install 
+# η Mac
+
+### Reminder
+
+
+Consider migrating Pages Router to /app when stable
