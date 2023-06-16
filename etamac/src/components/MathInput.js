@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Head from 'next/head';
 
-const IndexPage = () => {
+export default function MathField() {
   const mathFieldRef = useRef(null);
   const [value, setValue] = useState('');
   const [result, setResult] = useState('');
@@ -53,5 +53,3 @@ const IndexPage = () => {
     </>
   );
 };
-
-export default IndexPage;
