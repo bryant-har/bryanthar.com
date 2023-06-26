@@ -1,15 +1,12 @@
 import InputBar from '../components/InputBar'
-import { Typography } from '@mui/material'
+import Script from 'next/script'
+
 export default function Home() {
   return (
     <>
-      <Typography>
-        Welcome! A Quick Overview to EtaMac.
-        \\
-        Hi! I'm Bryant Har
-        #spotify downloader, not youtubeLink
-      </Typography>
-      <InputBar />
+      <Script src="//unpkg.com/mathlive"/>      
+      <math-field/>
+      <InputBar/>
     </>
   )
 }
