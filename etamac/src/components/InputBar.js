@@ -11,10 +11,11 @@ export default function Mathinput() {
         maxWidth: '100%',
       }}
     >
-        <Paper  elevation={2} >
-      <TextField fullWidth label="fullWidth" id="fullWidth" />
+      <Paper elevation={2} >
+        <TextField fullWidth label="fullWidth" id="fullWidth" />
       </Paper>
-      </Box>
+    </Box>
   );
 }
+
 

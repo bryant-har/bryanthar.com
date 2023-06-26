@@ -5,8 +5,9 @@ export default function Home() {
     <>
       <Typography>
         Welcome! A Quick Overview to EtaMac.
+        \\
         Hi! I'm Bryant Har
-        About the Name:
+        #spotify downloader, not youtubeLink
       </Typography>
       <InputBar />
     </>

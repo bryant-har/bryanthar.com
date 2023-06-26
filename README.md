@@ -13,3 +13,5 @@ Consider migrating Pages Router to /app when stable
 
 #### Optional
 - Consider moving mathlive script to _document.js
+
+- Reference https://github.com/arnog/react-mathlive/tree/main/example
