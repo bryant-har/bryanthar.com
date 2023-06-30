@@ -1,5 +1,7 @@
+About.getLayout = ((page) => page)
 
-function App() {
+
+export default function About() {
   return (
     <>
       <p className="layout-md text-black text-xl leading-tight font-light mb-16" id="-is">
@@ -33,11 +35,10 @@ function App() {
         </div>
 
 
-          <p>
-            Other interests: math, physics, photography, musical theatre, and biking.</p>
       </div>
+      <p>
+        Other interests: math, physics, photography, musical theatre, and biking.</p>
+
     </>
   );
 }
-
-export default App;

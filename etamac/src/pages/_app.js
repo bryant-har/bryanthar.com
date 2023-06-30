@@ -8,17 +8,30 @@ import "../styles.css"
 import Navbar from "../components/Navbar"
 import InputBar from '../components/InputBar'
 
-// Decorator
-export default function Wrapper({Component, Props}) {
+
+
+
+const defaultLayout = function getLayout(page) {
   return (
     <>
-      <Head>        
-        <title>EtaMac</title>
-      </Head>
-      <CssBaseline />
       <Navbar />
-    <Component {...Props}/>
+      {page}
     </>
   );
 };
+export default function App({ Component, Props }) {
+  const getLayout = (Component.getLayout ?? defaultLayout)
+
+  return (
+    <>
+      {getLayout(<Component {...Props} />)}
+      < Head >
+        <title>EtaMac</title>
+      </Head >
+      <CssBaseline />
+    </>
+  )
+};
+
+
 
