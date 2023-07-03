@@ -1,10 +1,21 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./src/**/*.{js,ts,jsx, html, tsx,mdx}",
-  ],
+import defaultTheme from "tailwindcss/defaultTheme"
+
+/** @type {import("tailwindcss").Config} */
+const config = {
+  content: ["./src/**/*.{html,js,svelte,ts}"],
+
+  darkMode: "class",
+
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: [...defaultTheme.fontFamily.sans],
+        serif: [...defaultTheme.fontFamily.serif],
+      },
+    },
   },
+
   plugins: [],
-}
+};
+
+module.exports = config;

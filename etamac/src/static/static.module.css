@@ -1,0 +1,17 @@
+.g {
+  @apply text-neutral-400;
+}
+
+.link {
+  @apply underline underline-offset-[3px] decoration-neutral-400 dark:decoration-neutral-500;
+  @apply hover:text-black hover:decoration-black transition-colors;
+  @apply dark:hover:text-white dark:hover:decoration-white;
+}
+
+.layout-md {
+  @apply max-w-screen-md mx-auto px-4 sm:px-6;
+}
+
+.heading2 {
+  @apply text-black text-xl font-semibold mb-4;
+}
