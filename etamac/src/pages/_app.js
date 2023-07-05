@@ -2,7 +2,6 @@ import * as React from 'react'
 import Head from 'next/head';
 import CssBaseline from '@mui/material/CssBaseline';
 import "../styles.css"
-import { BrowserRouter } from 'react-router-dom';
 import Navbar from "../components/Navbar"
 
 
@@ -24,9 +23,9 @@ export default function App({ Component, Props }) {
       < Head >
         <title>EtaMac</title>
       </Head >
-      <BrowserRouter>
-        {getLayout(<Component {...Props} />)}
-      </BrowserRouter>
+      {/* <BrowserRouter> */}
+      {getLayout(<Component {...Props} />)}
+      {/* </BrowserRouter> */}
 
     </>
   )
