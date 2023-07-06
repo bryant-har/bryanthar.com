@@ -12,7 +12,6 @@ import React from 'react';
 export default function About() {
   return (
     <>
-      <Header />
       <p
         className={styles["layout-md"]} class="text-black text-xl leading-tight font-light mb-16"
       >
@@ -23,7 +22,7 @@ export default function About() {
       <p>Design Philosophy</p>
       <div className=''>
         <p className="text-xs italic">
-          This website is powered by NextJS and Tailwind CSS, with MUI components. (Transcribed from svelte)
+          This website is powered by NextJS and Tailwind CSS, with MUI components.
         </p>
       </div>
 
