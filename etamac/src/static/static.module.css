@@ -12,6 +12,10 @@
   @apply max-w-screen-md mx-auto px-4 sm:px-6;
 }
 
+.hlinks {
+    @apply flex items-start text-neutral-500 justify-end space-x-6 text-lg py-0.5;
+}
+
 .heading2 {
   @apply text-black text-xl font-semibold mb-4;
 }

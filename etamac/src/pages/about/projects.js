@@ -1,4 +1,4 @@
-import Header from "../static/Header"
+import Header from "../../static/Header"
 
 P.getLayout = ((page) => (
   <div>

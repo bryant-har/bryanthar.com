@@ -1,5 +1,5 @@
-import styles from "../static/static.module.css"
-import Header from '../static/Header'
+import styles from "../../static/static.module.css"
+import Header from '../../static/Header'
 About.getLayout = ((page) => (
   <div>
     <Header />
@@ -22,7 +22,7 @@ export default function About() {
       <p>Design Philosophy</p>
       <div className=''>
         <p className="text-xs italic">
-          This website is powered by NextJS and Tailwind CSS, with MUI components.
+          This website is powered by NextJS and Tailwind CSS, with MUI components. ~Almost all written by me.
         </p>
       </div>
 

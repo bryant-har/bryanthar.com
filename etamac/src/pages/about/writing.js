@@ -1,10 +1,11 @@
 import Header from "../static/Header"
-W.getLayout = ((page) => (
+
+Writing.getLayout = ((page) => (
   <div>
     <Header />
     {page}
   </div>
 ))
-export default function W() {
+export default function Writing() {
   return <></>
 }

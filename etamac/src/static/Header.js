@@ -9,13 +9,15 @@ const links = [
   { name: "writing", href: "/writing" },
 ];
 
-
-//todo add header page changing...
-
 export default function Header() {
   const [pageTitle, setPageTitle] = useState('null');
-  const linkjs = links.map((obj) => <Link href={obj.href}>{obj.name}</Link>);
   const router = useRouter();
+  const linkjs = links.map((link) =>
+    <Link
+      href={link.href}
+      className={`hover:text-black transition-colors ${router.pathname === link.href ? "text-black" : ""}`}
+    >
+      {link.name}</ Link>);
 
   useEffect(() => {
     const link = links.find(({ href }) => href === router.pathname);
@@ -38,8 +40,9 @@ export default function Header() {
           </span>) : null
         }
       </h1>
-
-      {linkjs}
+      <div className={styles["hlinks"]}>
+        {linkjs}
+      </div>
     </header >
   );
 }
