@@ -15,3 +15,17 @@
 .heading2 {
   @apply text-black text-xl font-semibold mb-4;
 }
+
+.page-title {
+  @apply font-light;
+}
+
+@media (max-width: 580px) {
+  .page-title {
+    @apply block text-xl;
+  }
+
+  .page-title :first-child {
+    @apply hidden;
+  }
+}
