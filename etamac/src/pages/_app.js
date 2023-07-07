@@ -23,9 +23,7 @@ export default function App({ Component, Props }) {
       < Head >
         <title>EtaMac</title>
       </Head >
-      {/* <BrowserRouter> */}
       {getLayout(<Component {...Props} />)}
-      {/* </BrowserRouter> */}
 
     </>
   )
