@@ -20,7 +20,7 @@ export default function About() {
         designer<span className={styles.g}>.</span>
       </p>
       <p>Design Philosophy</p>
-      <div className=''>
+      <div>
         <p className="text-xs italic">
           This website is powered by NextJS and Tailwind CSS, with MUI components. ~Almost all written by me.
         </p>

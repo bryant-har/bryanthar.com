@@ -1,4 +1,4 @@
-import Header from "../static/Header"
+import Header from "../../static/Header"
 
 Writing.getLayout = ((page) => (
   <div>
@@ -7,5 +7,7 @@ Writing.getLayout = ((page) => (
   </div>
 ))
 export default function Writing() {
-  return <></>
+  return <>
+    {/* todo */}
+  </>
 }
