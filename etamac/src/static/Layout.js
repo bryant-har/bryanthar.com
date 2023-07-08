@@ -1,7 +1,7 @@
 import Header from './Header'
-
+import styles from './static.module.css'
 const layout = ((page) => (
-  <div>
+  <div className={`${styles['layout-md']}`} >
     <Header />
     {page}
   </div>

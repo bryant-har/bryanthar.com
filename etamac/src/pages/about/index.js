@@ -7,8 +7,7 @@ About.getLayout = layout
 export default function About() {
   return (
     <>
-      <p
-        className={styles["layout-md"]} class="text-black text-xl leading-tight font-light mb-16"
+      <p className="text-black text-xl leading-tight font-light mb-16"
       >
         <span className={styles.g}>is a</span> software engineer<span className={styles.g}>,</span><br />
         researcher<span className={styles.g}>, and</span><br />

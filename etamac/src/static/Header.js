@@ -10,7 +10,7 @@ const links = [
 ];
 
 export default function Header() {
-  const [pageTitle, setPageTitle] = useState('null');
+  const [pageTitle, setPageTitle] = useState(null);
   const router = useRouter();
   const linkjs = links.map((link) =>
     <Link
@@ -30,7 +30,7 @@ export default function Header() {
 
   return (
     <header
-      className="layout-md flex justify-between items-start"
+      className={`${styles["header"]} flex justify-between items-start`}
     >
       <h1 class="font-bold text-black text-2xl mb-6">
         <Link href="/about">Bryant Har </Link>
