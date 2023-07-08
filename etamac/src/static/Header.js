@@ -15,7 +15,7 @@ export default function Header() {
   const linkjs = links.map((link) =>
     <Link
       href={link.href}
-      className={`hover:text-black transition-colors ${router.pathname === link.href ? "text-black" : ""}`}
+      className={`hover:text-black transition-colors  ${router.pathname === link.href ? "text-black" : ""}`}
     >
       {link.name}</ Link>);
 
@@ -30,7 +30,7 @@ export default function Header() {
 
   return (
     <header
-      className={`${styles["header"]} flex justify-between items-start`}
+      className="flex justify-between items-start"
     >
       <h1 class="font-bold text-black text-2xl mb-6">
         <Link href="/about">Bryant Har </Link>

@@ -11,12 +11,12 @@
   @apply max-w-screen-md mx-auto px-4 sm:px-6;
 }
 
-.header {
-  @apply antialiased py-12 sm:py-20 md:py-24 text-neutral-700;
+.margin {
+  @apply py-12 sm:py-24 md:py-32 text-neutral-700;
 }
 
 .hlinks {
-    @apply flex items-start text-neutral-500 justify-end space-x-6 text-lg py-0.5;
+    @apply flex items-start text-neutral-500 justify-end space-x-6 text-lg py-0.5;  
 }
 
 .page-title {
