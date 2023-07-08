@@ -15,7 +15,7 @@ export default function About() {
       <p>Design Philosophy</p>
       <div>
         <p className="text-xs italic">
-          This website is powered by NextJS and Tailwind CSS, with MUI components. ~Almost all written by me.
+          This website is powered by NextJS and Tailwind CSS, with MUI components.
         </p>
       </div>
 
