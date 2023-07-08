@@ -1,11 +1,7 @@
-import Header from "../../static/Header"
+import layout from "../../static/Layout";
 
-Writing.getLayout = ((page) => (
-  <div>
-    <Header />
-    {page}
-  </div>
-))
+Writing.getLayout = layout
+
 export default function Writing() {
   return <>
     {/* todo */}

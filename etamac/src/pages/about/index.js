@@ -1,13 +1,8 @@
 import styles from "../../static/static.module.css"
-import Header from '../../static/Header'
-About.getLayout = ((page) => (
-  <div>
-    <Header />
-    {page}
-  </div>
-))
-
 import React from 'react';
+import layout from "../../static/Layout";
+
+About.getLayout = layout
 
 export default function About() {
   return (
