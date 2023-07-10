@@ -18,17 +18,19 @@ export default function Arts() {
           It's mostly for personal use and access, but feel free to take a gander.
         </p>
         <div className="py-2 grid gap-y-4">
-          <Link className="staticlink py-1 bg-slate-100 text-xl" href="#sheets"> &nbsp; Sheets Repo ↓ &nbsp;</Link>
-          <Link className="staticlink py-1 bg-slate-100 text-xl" href="#poems"> &nbsp; Poetry ↓ &nbsp; </Link>
+          <a className="staticlink py-1 bg-slate-100 text-xl" href="#sheets"> &nbsp; Sheets Repo ↓ &nbsp;</a>
+          <a className="staticlink py-1 bg-slate-100 text-xl" href="#poems"> &nbsp; Poetry ↓ &nbsp; </a>
         </div >
 
       </section >
       <section id="sheets">
         <h1 className={styles.heading}>Sheets</h1>
+        <div className="pb-96"></div>
         {/* Import sheets list component */}
       </section>
       <section id="poems">
         <h1 className={styles.heading}>Poetry</h1>
+        <div className="pb-96"></div>
       </section>
     </div >
   </>
