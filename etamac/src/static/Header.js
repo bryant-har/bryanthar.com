@@ -32,7 +32,7 @@ export default function Header() {
 
   return (
     <header
-      className="flex justify-between items-start"
+      className="flex justify-between items-start text-neutral-400"
     >
       <h1 className="font-bold text-black text-2xl mb-6">
         <Link href="/about">Bryant Har </Link>
@@ -42,7 +42,7 @@ export default function Header() {
           </span>) : null
         }
       </h1>
-      <div className={styles.hspacing}>
+      <div className="flex items-start justify-end space-x-6 text-lg">
         {linkjs}
       </div>
     </header >

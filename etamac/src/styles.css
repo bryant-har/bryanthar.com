@@ -9,7 +9,7 @@
 }
 
 html {
-  @apply scroll-smooth
+  @apply motion-safe:scroll-smooth;
 }
 
 
@@ -17,7 +17,7 @@ html {
 
 /* Most Static Styles in ./static css module*/
 .staticlink {
-  @apply hover:text-black transition-colors text-neutral-500
+  @apply hover:text-blue-200 transition-colors
 }
 .staticbody {
   @apply text-lg space-y-14 py-12
