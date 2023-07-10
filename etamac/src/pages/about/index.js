@@ -12,13 +12,19 @@ export default function About() {
         researcher<span className={styles.g}>, and</span><br />
         designer<span className={styles.g}>.</span>
       </p>
-      <p>Design Philosophy</p>
-      <div>
-        <p className="text-xs italic">
-          This website is powered by NextJS and Tailwind CSS, with MUI components.
-        </p>
-      </div>
 
+      <div class="layout-md text-lg space-y-14">
+        {/* Is layout-md necessary? */}
+        <div class="space-y-5">
+          <p>
+            I currently work on the future of cloud computing at
+          </p>
+          <p>
+            My ambition is to make better interactive software that helps people
+            create, collaborate, learn, and meaningfully express what brings them joy.
+          </p>
+        </div>
+      </div>
     </>
   );
 };
