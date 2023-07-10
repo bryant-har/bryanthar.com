@@ -17,7 +17,7 @@ export default function Header() {
     <Link
       href={link.href}
       key={index}
-      className={`hover:text-black transition-colors  ${router.pathname === link.href ? "text-black" : ""}`}
+      className={`staticlink ${router.pathname === link.href ? "text-black" : ""}`}
     >
       {link.name}</ Link>);
 
