@@ -2,10 +2,11 @@
 
 
 # TODO
-
 ## Static About
 
 - Flesh out random achievements works page
+--- Create List Component
+
 
 - Flesh Out Projects Page
   --- Say some is for research purposes
