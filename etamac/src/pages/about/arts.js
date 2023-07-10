@@ -12,7 +12,7 @@ export default function Arts() {
           I do <it className=" text-purple-400">~creative~</it> stuff sometimes <span className=" text-sm bg-green-100"> ¯\_(ツ)_/¯ </span>.
         </p>
         <p className="py-4">
-          Here's a <em className=" bg-slate-200">quick access</em> to some sheet music and poems I've previously played and memorized
+          Here's <em className=" bg-slate-200">quick access</em> to some sheets and poems I've previously played and memorized
           <it className="hover:blur-none blur-[2px] text-gray-400 text-xs transition-all"> (or am going to. promise...)</it>.
           I play piano and enjoy poetry now and again.
           It's mostly for personal use and access, but feel free to take a gander.
