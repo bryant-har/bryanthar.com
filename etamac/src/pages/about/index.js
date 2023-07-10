@@ -17,7 +17,7 @@ export default function About() {
         {/* Is layout-md necessary? */}
         <div class="space-y-5">
           <p>
-            I currently work on the future of cloud computing at
+            I currently work
           </p>
           <p>
             My ambition is to make better interactive software that helps people
