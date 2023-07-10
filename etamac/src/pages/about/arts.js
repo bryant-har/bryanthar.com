@@ -6,25 +6,33 @@ Arts.getLayout = Layout
 export default function Arts() {
   return <>
     <body className="staticbody">
-      <div className="pb-96">
-        <section class={styles.header}>Arts</section>
+      <section className="pb-96">
+        <h1 className={styles.heading}>Arts</h1>
         <p>
-          I enjoy <it className=" text-purple-400">~creative~</it> stuff sometimes I
-          guess <span className=" text-sm bg-neutral-200">¯\_(ツ)_/¯</span>. Here's
-          <em>quick access</em> to some sheet musics and poems I've played and memorized <it className="text-gray-400 text-xs">(or going to)</it>.
-          It's mostly for personal use, but feel free to take a gander.
+          I do <it className=" text-purple-400">~creative~</it> stuff sometimes <span className=" text-sm bg-green-100"> ¯\_(ツ)_/¯ </span>.
         </p>
-        <br />
-        <Link className="staticlink text-neutral-600 bg-yellow-100" href="#sheets">Sheet Music ↓ </Link>
-        <br />
-        <Link className="staticlink bg-yellow-100" href="#poems">Memorized Poems ↓ </Link>
-      </div >
-      <div className="pb-96">
-        <section id="sheets">SECTION 1</section>
-        {/* import sheets component */}
-        <section id="poems">SECTION 2</section>
-      </div>
-    </body>
+        <p className="py-4">
+          Here's a <em>quick access</em> to sheet music and poems I've previously played and memorized
+          <it className="hover:blur-none blur-[1px] text-gray-400 text-xs"> (or surely am going to...)</it>.
+          I play piano and enjoy poetry now and again.
+          It's mostly for personal use and access, but feel free to take a gander.
+        </p>
+        <div className="py-2 hover:bg-neutral-100 transition-colors">
+          <Link className="staticlink text-neutral-600 bg-yellow-100 text-xl" href="#sheets">Music ↓ </Link>
+        </div >
+        <div className="py-2 hover:bg-neutral-100 transition-colors">
+          <Link className="staticlink bg-yellow-100 text-xl" href="#poems">Poetry ↓ </Link>
+        </div >
+
+      </section >
+      <section id="sheets">
+        <h1 className={styles.heading}>Sheets</h1>
+        {/* Import sheets list component */}
+      </section>
+      <section id="poems">
+        <h1 className={styles.heading}>Poetry</h1>
+      </section>
+    </body >
   </>
 
 }

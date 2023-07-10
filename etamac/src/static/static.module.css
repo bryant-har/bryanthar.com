@@ -19,8 +19,8 @@
     @apply flex items-start justify-end space-x-6 text-lg py-0.5;  
 }
 
-.header {
-  @apply font-bold text-black text-2xl mb-6
+.heading {
+  @apply text-black text-xl font-semibold mb-4;
 }
 
 .page-title {
