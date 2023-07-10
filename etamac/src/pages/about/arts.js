@@ -5,7 +5,7 @@ Arts.getLayout = Layout
 
 export default function Arts() {
   return <>
-    <body className="staticbody">
+    <div className="staticbody">
       <section className="pb-96">
         <h1 className={styles.heading}>Arts</h1>
         <p>
@@ -30,7 +30,7 @@ export default function Arts() {
       <section id="poems">
         <h1 className={styles.heading}>Poetry</h1>
       </section>
-    </body >
+    </div >
   </>
 
 }
