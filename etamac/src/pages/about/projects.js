@@ -1,12 +1,9 @@
-import Header from "../../static/Header"
+import layout from "../../static/Layout";
 
-P.getLayout = ((page) => (
-  <div>
-    <Header />
-    {page}
-  </div>
-))
+P.getLayout = layout
 
 export default function P() {
-  return <></>
+  return <>
+    {/* todo */}
+  </>
 }

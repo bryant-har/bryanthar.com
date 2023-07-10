@@ -5,17 +5,18 @@ import { useRouter } from 'next/router';
 
 
 const links = [
-  { name: "projects", href: "/projects" },
-  { name: "writing", href: "/writing" },
+  { name: "projects", href: "/about/projects" },
+  { name: "writing", href: "/about/writing" }
 ];
 
 export default function Header() {
-  const [pageTitle, setPageTitle] = useState('null');
+  const [pageTitle, setPageTitle] = useState(null);
   const router = useRouter();
-  const linkjs = links.map((link) =>
+  const linkjs = links.map((link, index) =>
     <Link
       href={link.href}
-      className={`hover:text-black transition-colors ${router.pathname === link.href ? "text-black" : ""}`}
+      key={index}
+      className={`hover:text-black transition-colors  ${router.pathname === link.href ? "text-black" : ""}`}
     >
       {link.name}</ Link>);
 
@@ -30,9 +31,9 @@ export default function Header() {
 
   return (
     <header
-      className="layout-md flex justify-between items-start"
+      className="flex justify-between items-start"
     >
-      <h1 class="font-bold text-black text-2xl mb-6">
+      <h1 className="font-bold text-black text-2xl mb-6">
         <Link href="/about">Bryant Har </Link>
         {pageTitle ?
           (<span class={styles["page-title"]} >

@@ -1,11 +1,14 @@
-import Header from "../static/Header"
+import layout from "../../static/Layout";
 
-Writing.getLayout = ((page) => (
-  <div>
-    <Header />
-    {page}
-  </div>
-))
+Writing.getLayout = layout
+
 export default function Writing() {
-  return <></>
+  return <>
+    {/* todo */}
+    {/* Proofs I like */}
+    <p>
+      Sheet Music on Demand
+
+    </p>
+  </>
 }

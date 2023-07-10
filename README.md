@@ -1,18 +1,25 @@
 # η Mac
 
-### Reminder
+
+# TODO
+
+## Static About
+
+- Flesh out random achievements works page
+
+- Flesh Out Projects Page
+  --- Say some is for research purposes
+  --- Random odds and bits. Bit masking. Freshmen Research for SSDS
+  --- Physics Research on Stellarators You Probably Don't Care About... :(
+  --- Robot Shit
+  --- Favorite Songs Represent Me.
 
 
-Consider migrating Pages Router to /app when stable
+- Add Fly-In page transitions
 
 
-### Todo
-#### Critical
-- Implement mp3/mp4 converter into a page
-- implement pdf editor / page reorderer
-- Work on About me page
 
-#### Optional
-- Consider moving mathlive script to _document.js
 
-- Reference https://github.com/arnog/react-mathlive/tree/main/example
+
+## Secondary
+
