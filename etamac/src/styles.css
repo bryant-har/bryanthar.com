@@ -15,10 +15,11 @@ html {
 
 
 
-/* Static Styles in ./static css module*/
+/* Most Static Styles in ./static css module*/
 .staticlink {
   @apply hover:text-black transition-colors text-neutral-500
 }
 .staticbody {
   @apply text-lg space-y-14 py-12
 }
+

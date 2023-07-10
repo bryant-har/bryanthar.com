@@ -1,12 +1,13 @@
-import layout from "../../static/Layout";
+import Layout from "../../static/Layout";
 import Link from "next/link";
-
-Arts.getLayout = layout
+import styles from "../../static/static.module.css"
+Arts.getLayout = Layout
 
 export default function Arts() {
   return <>
     <body className="staticbody">
       <div className="pb-96">
+        <section class={styles.header}>Arts</section>
         <p>
           I enjoy <it className=" text-purple-400">~creative~</it> stuff sometimes I
           guess <span className=" text-sm bg-neutral-200">¯\_(ツ)_/¯</span>. Here's
@@ -18,17 +19,6 @@ export default function Arts() {
         <br />
         <Link className="staticlink bg-yellow-100" href="#poems">Memorized Poems ↓ </Link>
       </div >
-      <p>
-        Under Construction
-
-
-
-
-
-
-
-
-      </p>
       <div className="pb-96">
         <section id="sheets">SECTION 1</section>
         {/* import sheets component */}

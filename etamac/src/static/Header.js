@@ -34,7 +34,7 @@ export default function Header() {
     <header
       className="flex justify-between items-start"
     >
-      <h1 className="font-bold text-black text-2xl mb-6">
+      <h1 className={styles['header']}>
         <Link href="/about">Bryant Har </Link>
         {pageTitle ?
           (<span class={styles["page-title"]} >
