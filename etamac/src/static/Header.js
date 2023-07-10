@@ -6,7 +6,8 @@ import { useRouter } from 'next/router';
 
 const links = [
   { name: "projects", href: "/about/projects" },
-  { name: "writing", href: "/about/writing" }
+  { name: "writing", href: "/about/writing" },
+  { name: "arts", href: "/about/arts" }
 ];
 
 export default function Header() {
