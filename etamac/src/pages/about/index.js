@@ -13,9 +13,8 @@ export default function About() {
         designer<span className={styles.g}>.</span>
       </p>
 
-      <div class="layout-md text-lg space-y-14">
-        {/* Is layout-md necessary? */}
-        <div class="space-y-5">
+      <div className="text-lg space-y-14">
+        <div className="space-y-5">
           <p>
             I currently work
           </p>
