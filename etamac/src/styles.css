@@ -17,5 +17,5 @@ html {
 
 /* Static Styles in ./static css module*/
 .staticlink {
-  @apply hover:text-black transition-colors 
+  @apply hover:text-black transition-colors text-neutral-500
 }

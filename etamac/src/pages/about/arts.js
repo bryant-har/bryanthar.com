@@ -10,8 +10,8 @@ export default function Arts() {
         Personal Use Sheet Music:
 
       </p>
-      <Link className="link" href="#sheets">Sheet Music ↓ </Link>
-      <Link className="link" href="#poems">Memorized Poems ↓ </Link>
+      <Link className="staticlink" href="#sheets">Sheet Music ↓ </Link>
+      <Link className="staticlink" href="#poems">Memorized Poems ↓ </Link>
     </div>
     <p>
       Under Construction
@@ -25,7 +25,7 @@ export default function Arts() {
     </p>
     <div className="pb-96">
       <div id="sheets">SECTION 1</div>
-      <div id="arts">SECTION 2</div>
+      <div id="poems">SECTION 2</div>
     </div>
 
   </>

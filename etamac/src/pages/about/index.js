@@ -16,7 +16,7 @@ export default function About() {
       <div className="text-lg space-y-14">
         <div className="space-y-5">
           <p>
-            I currently work
+            <em>I currently work</em>
           </p>
           <p>
             My ambition is to make better interactive software that helps people

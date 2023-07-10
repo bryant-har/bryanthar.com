@@ -42,7 +42,7 @@ export default function Header() {
           </span>) : null
         }
       </h1>
-      <div className={styles["hlinks"]}>
+      <div className={styles["hspacing"]}>
         {linkjs}
       </div>
     </header >

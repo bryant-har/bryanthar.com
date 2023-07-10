@@ -12,11 +12,11 @@
 }
 
 .margin {
-  @apply py-12 sm:py-24 md:py-32 text-neutral-700;
+  @apply py-12 sm:py-24 md:py-32;
 }
 
-.hlinks {
-    @apply flex items-start text-neutral-500 justify-end space-x-6 text-lg py-0.5;  
+.hspacing {
+    @apply flex items-start justify-end space-x-6 text-lg py-0.5;  
 }
 
 .page-title {
