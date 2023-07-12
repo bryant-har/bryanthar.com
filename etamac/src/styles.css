@@ -3,21 +3,19 @@
 @tailwind utilities;
 
 @layer base {
+  html { 
+    @apply scroll-smooth
+  }
   hr {
     @apply border-neutral-200;
   }
+  
 }
-
-html {
-  @apply scroll-smooth
-}
-
-
 
 
 /* Most Static Styles in ./static css module*/
 .staticlink {
-  @apply hover:text-black transition-colors text-neutral-500
+  @apply hover:text-blue-300 transition-colors
 }
 .staticbody {
   @apply text-lg space-y-14 py-12

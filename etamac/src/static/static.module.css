@@ -15,10 +15,6 @@
   @apply py-12 sm:py-24 md:py-32;
 }
 
-.hspacing {
-    @apply flex items-start justify-end space-x-6 text-lg py-0.5;  
-}
-
 .heading {
   @apply text-black text-xl font-semibold mb-4;
 }
