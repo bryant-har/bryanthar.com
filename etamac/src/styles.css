@@ -18,6 +18,6 @@
   @apply hover:text-blue-300 transition-colors
 }
 .staticbody {
-  @apply text-lg space-y-14 py-12
+  @apply space-y-14 py-12
 }
 

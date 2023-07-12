@@ -5,13 +5,14 @@ Arts.getLayout = Layout
 export default function Arts() {
   return <>
     <div className="staticbody">
-      <section className="pb-18">
+      <section className="pb-36">
         <h1 className={styles.heading}>Arts</h1>
         <p>
           I do <it className=" text-purple-400">~creative~</it> stuff sometimes. <span className=" text-sm bg-green-100"> ¯\_(ツ)_/¯ </span>
         </p>
         <p className="pb-4 pt-2">
-          I play piano and memorize works of poetry now and again. Poetry is <em><b>neat!</b></em> This page is mostly for personal use, but feel free to take a gander.
+          I play piano and recite poetry now and again. Poetry is <em><b>neat!</b></em> <br />
+          This page is mostly for personal use, but feel free to take a gander.
           Here's quick access to stuff I've previously played and memorized
           <it className="hover:blur-none blur-[2px] text-gray-400 text-xs transition-all"> (or am going to...)</it>.
         </p>
@@ -19,7 +20,6 @@ export default function Arts() {
           <a className="staticlink py-1 bg-slate-100 text-xl" href="#sheets"> &nbsp; Sheets Repo <b>↓</b> &nbsp;</a>
           <a className="staticlink py-1 bg-slate-100 text-xl" href="#poems"> &nbsp; Poetry <b>↓</b> &nbsp; </a>
         </div >
-
       </section >
       <section id="sheets">
         <h1 className={styles.heading}>Sheets</h1>
