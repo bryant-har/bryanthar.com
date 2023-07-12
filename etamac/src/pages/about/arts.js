@@ -1,5 +1,4 @@
 import Layout from "../../static/Layout";
-import Link from "next/link";
 import styles from "../../static/static.module.css"
 Arts.getLayout = Layout
 
