@@ -11,10 +11,9 @@ export default function Arts() {
           I do <it className=" text-purple-400">~creative~</it> stuff sometimes. <span className=" text-sm bg-green-100"> ¯\_(ツ)_/¯ </span>
         </p>
         <p className="pb-4 pt-2">
-          Here's quick access to some sheets and poems I've previously played and memorized
+          I play piano and memorize works of poetry now and again. Poetry is <em><b>neat!</b></em> This page is mostly for personal use, but feel free to take a gander.
+          Here's quick access to stuff I've previously played and memorized
           <it className="hover:blur-none blur-[2px] text-gray-400 text-xs transition-all"> (or am going to...)</it>.
-          I play piano and enjoy poetry now and again.
-          It's mostly for personal use and access, but feel free to take a gander.
         </p>
         <div className="py-2 grid gap-y-4">
           <a className="staticlink py-1 bg-slate-100 text-xl" href="#sheets"> &nbsp; Sheets Repo <b>↓</b> &nbsp;</a>

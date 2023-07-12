@@ -1,6 +1,6 @@
 import styles from "../../static/static.module.css"
 import React from 'react';
-import layout from "../../static/Layout";
+import layout from "../../static/Layout.js"
 About.getLayout = layout
 
 export default function About() {
