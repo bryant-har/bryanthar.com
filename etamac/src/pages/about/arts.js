@@ -9,7 +9,7 @@ export default function Arts() {
       <section className="pb-18">
         <h1 className={styles.heading}>Arts</h1>
         <p>
-          I do <it className=" text-purple-400">~creative~</it> stuff sometimes <span className=" text-sm bg-green-100"> ¯\_(ツ)_/¯ </span>.
+          I do <it className=" text-purple-400">~creative~</it> stuff sometimes. <span className=" text-sm bg-green-100"> ¯\_(ツ)_/¯ </span>
         </p>
         <p className="pb-4 pt-2">
           Here's quick access to some sheets and poems I've previously played and memorized
