@@ -22,6 +22,7 @@ export default function About() {
             My ambition is to make better interactive software that helps people
             create, collaborate, learn, and meaningfully express what brings them joy.
           </p>
+
         </div>
       </div>
     </>
