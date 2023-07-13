@@ -1,6 +1,11 @@
 import Layout from "../../static/Layout";
 import styles from "../../static/static.module.css"
+import sheetdata from "./scores.yaml"
+import yaml from 'js-yaml'
 Arts.getLayout = Layout
+
+
+
 
 export default function Arts() {
   return <>
@@ -16,11 +21,13 @@ export default function Arts() {
           Here's quick access to stuff I've previously played and memorized
           <it className="hover:blur-none blur-[2px] text-gray-400 text-xs transition-all"> (or am going to...)</it>.
         </p>
+
         <div className="py-2 grid gap-y-4">
           <a className="staticlink py-1 bg-slate-100 text-xl" href="#sheets"> &nbsp; Sheets Repo <b>↓</b> &nbsp;</a>
           <a className="staticlink py-1 bg-slate-100 text-xl" href="#poems"> &nbsp; Poetry <b>↓</b> &nbsp; </a>
         </div >
       </section >
+
       <section id="sheets">
         <h1 className={styles.heading}>Sheets</h1>
         <div className="pb-96"></div>
