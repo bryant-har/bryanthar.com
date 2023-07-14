@@ -31,7 +31,7 @@ export default function Header() {
 
   return (
     <header
-      className="flex justify-between items-start text-neutral-400"
+      className=" layout flex justify-between items-start text-neutral-400"
     >
       <h1 className="font-bold text-black text-2xl mb-6">
         <Link href="/about">Bryant Har </Link>

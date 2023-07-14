@@ -5,14 +5,14 @@ About.getLayout = layout
 export default function About() {
   return (
     <>
-      <p className="text-black text-xl leading-tight font-light mb-16"
+      <p className="text-black text-xl leading-tight font-light mb-16 layout"
       >
         <span className="g">is a</span> software engineer<span className={"g"}>,</span><br />
         researcher<span className={"g"}>, and</span><br />
         designer<span className={"g"}>.</span>
       </p>
 
-      <div className="text-lg space-y-14">
+      <div className="text-lg space-y-14 layout">
         <div className="space-y-5">
           <p>
             <em>I currently work</em>

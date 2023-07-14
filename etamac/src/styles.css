@@ -14,9 +14,6 @@
 
 
 @layer components {
-  .staticbody {
-    @apply space-y-14 py-12
-  }
 
   .g {
     @apply text-neutral-400;
@@ -27,12 +24,12 @@
     @apply hover:text-blue-300 hover:decoration-black transition-colors;
   }
 
-  .layout-md {
-    @apply max-w-screen-md mx-auto px-4 sm:px-6;
+  .layout {
+    @apply max-w-screen-md mx-auto px-4 sm:px-6 text-neutral-700;
   }
 
   .margin {
-    @apply py-12 sm:py-24 md:py-32;
+    @apply py-12 sm:py-24 md:py-32 space-y-14;
   }
 
   .heading {
