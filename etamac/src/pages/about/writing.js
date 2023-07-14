@@ -8,6 +8,6 @@ export default function Writing() {
     {/* Blog Stuff */}
     {/* Notes */}
     {/* Classes Taken And Notes For those classes */}
-
+    {/* Make tabs like Geoff */}
   </>
 }
