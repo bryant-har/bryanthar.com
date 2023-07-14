@@ -5,11 +5,9 @@ Writing.getLayout = layout
 export default function Writing() {
   return <>
     {/* todo */}
-    {/* Proofs I like */}
-    {/* Notepad */}
-    <p>
-      Sheet Music on Demand
+    {/* Blog Stuff */}
+    {/* Notes */}
+    {/* Classes Taken And Notes For those classes */}
 
-    </p>
   </>
 }
