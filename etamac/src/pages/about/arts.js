@@ -27,7 +27,8 @@ export default function Arts() {
           <a className="staticlink py-1 bg-slate-100 text-xl" href="#poems"> &nbsp; Poetry <b>↓</b> &nbsp; </a>
         </div >
       </section >
-
+      {/* // BEVEL BOTTOM Here//
+      ADD BEVEL DARK BLACK BEVEL TO SPLIT PAGE FROM SHEETS/POETRY */}
       <section id="sheets">
         <h1 className={styles.heading}>Sheets</h1>
         <div className="pb-96"></div>
