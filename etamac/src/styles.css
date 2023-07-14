@@ -13,11 +13,43 @@
 }
 
 
-/* Most Static Styles in ./static css module*/
-.staticlink {
-  @apply hover:text-blue-300 transition-colors
-}
-.staticbody {
-  @apply space-y-14 py-12
+@layer components {
+  .staticbody {
+    @apply space-y-14 py-12
+  }
+
+  .g {
+    @apply text-neutral-400;
+  }
+
+  .link {
+    @apply underline underline-offset-[3px] decoration-neutral-400 dark:decoration-neutral-500;
+    @apply hover:text-blue-300 hover:decoration-black transition-colors;
+  }
+
+  .layout-md {
+    @apply max-w-screen-md mx-auto px-4 sm:px-6;
+  }
+
+  .margin {
+    @apply py-12 sm:py-24 md:py-32;
+  }
+
+  .heading {
+    @apply text-black text-xl font-semibold mb-4;
+  }
+
+  .page-title {
+    @apply font-light;
+  }
 }
 
+@media (max-width: 580px) {
+  .page-title {
+    @apply block text-xl;
+  }
+
+  .page-title :first-child {
+    @apply hidden;
+  }
+}

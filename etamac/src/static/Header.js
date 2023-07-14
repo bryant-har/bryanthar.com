@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import styles from "../static/static.module.css"
 import { useRouter } from 'next/router';
 
 
@@ -17,7 +16,7 @@ export default function Header() {
     <Link
       href={link.href}
       key={index}
-      className={`staticlink ${router.pathname === link.href ? "text-black" : ""}`}
+      className={`hover:text-blue-300 transition-colors ${router.pathname === link.href ? "text-black" : ""}`}
     >
       {link.name}</ Link>);
 
@@ -37,8 +36,8 @@ export default function Header() {
       <h1 className="font-bold text-black text-2xl mb-6">
         <Link href="/about">Bryant Har </Link>
         {pageTitle ?
-          (<span class={styles["page-title"]} >
-            <span class="text-neutral-400">—</span> {pageTitle}
+          (<span className='page-title' >
+            <span className="text-neutral-400">—</span> {pageTitle}
           </span>) : null
         }
       </h1>

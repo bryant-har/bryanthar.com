@@ -1,6 +1,4 @@
 import Layout from "../../static/Layout";
-import styles from "../../static/static.module.css"
-import sheetdata from "./scores.yaml"
 import yaml from 'js-yaml'
 Arts.getLayout = Layout
 
@@ -11,9 +9,9 @@ export default function Arts() {
   return <>
     <div className="staticbody">
       <section className="pb-36">
-        <h1 className={styles.heading}>Arts</h1>
+        <h1 className={"heading"}>Arts</h1>
         <p>
-          I do <it className=" text-purple-400">~creative~</it> stuff sometimes. <span className=" text-sm bg-green-100"> ¯\_(ツ)_/¯ </span>
+          I do <it className="text-purple-400">~creative~</it> stuff sometimes. <span className=" text-sm bg-green-100"> ¯\_(ツ)_/¯ </span>
         </p>
         <p className="pb-4 pt-2">
           I play piano and recite poetry now and again. Poetry is <em><b>neat!</b></em> <br />
@@ -27,15 +25,25 @@ export default function Arts() {
           <a className="staticlink py-1 bg-slate-100 text-xl" href="#poems"> &nbsp; Poetry <b>↓</b> &nbsp; </a>
         </div >
       </section >
-      {/* // BEVEL BOTTOM Here//
-      ADD BEVEL DARK BLACK BEVEL TO SPLIT PAGE FROM SHEETS/POETRY */}
+      <div class="bg-gray-900 text-neutral-200 dark">
+        <section class="layout-md py-12">
+          <h1 className={"heading text-white"} >Table of Contents</h1>
+          <ul>
+            <li>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+
+
       <section id="sheets">
-        <h1 className={styles.heading}>Sheets</h1>
+        <h1 className={"heading"}>Sheets</h1>
         <div className="pb-96"></div>
         {/* Import sheets list component */}
       </section>
       <section id="poems">
-        <h1 className={styles.heading}>Poetry</h1>
+        <h1 className={"heading"}>Poetry</h1>
         <div className="pb-96"></div>
       </section>
     </div >

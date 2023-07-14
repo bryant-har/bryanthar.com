@@ -1,12 +1,11 @@
 import Header from './Header'
-import styles from './static.module.css'
 import React from 'react'
 
 const layout = ((page) => (
-  <div className={`${styles['layout-md']} ${styles["margin"]}`} >
-    <Header />
+  <div className={'layout-md margin'} >
+    < Header />
     {page}
-  </div>
+  </div >
 ))
 
 export default layout

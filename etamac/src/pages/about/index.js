@@ -1,4 +1,3 @@
-import styles from "../../static/static.module.css"
 import React from 'react';
 import layout from "../../static/Layout.js"
 About.getLayout = layout
@@ -8,9 +7,9 @@ export default function About() {
     <>
       <p className="text-black text-xl leading-tight font-light mb-16"
       >
-        <span className={styles.g}>is a</span> software engineer<span className={styles.g}>,</span><br />
-        researcher<span className={styles.g}>, and</span><br />
-        designer<span className={styles.g}>.</span>
+        <span className="g">is a</span> software engineer<span className={"g"}>,</span><br />
+        researcher<span className={"g"}>, and</span><br />
+        designer<span className={"g"}>.</span>
       </p>
 
       <div className="text-lg space-y-14">
