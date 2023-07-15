@@ -21,7 +21,12 @@ export default function Error() {
 
   return (
     <>
-      <img src={img} alt="404 Missing Page" />
+      <div className='grid h-screen place-items-center'>
+        <div>
+          <h1 className='text-center heading'><a href='/about/'>Click Here to Return to About Page</a></h1>
+          <img src={img} alt="404 Missing Page" />
+        </div>
+      </div>
     </>
   );
 
