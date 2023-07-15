@@ -15,35 +15,39 @@ export default function Arts() {
         </p>
         <p className="pb-4 pt-2">
           I play piano and recite poetry now and again. Poetry is <em><b>neat!</b></em> <br />
-          This page is mostly for personal use, but feel free to take a gander.
-          Here's quick access to stuff I've previously played and memorized.
+          This page is mostly for personal use, but feel free to take a gander. I'll
+          add my own work soon. Here's quick access to stuff I've previously played and memorized.
           <it className="hover:blur-none blur-[2px] text-gray-400 text-xs transition-all"> (or am going to...)</it>
         </p>
       </section >
 
       <div className="bg-gray-900 py-12 text-neutral-200 dark">
-        <section className="pb-12 layout">
+        <section className="layout">
           <h1 className="heading text-white" >Table of Contents</h1>
-          <h2><a className="staticlink py-1 text-md" href="#sheets"> &nbsp; Sheets Repo <b>↓</b> &nbsp;</a></h2>
-          <div className='pl-4'>
-            <ul>
-              <li> Bop </li>
-            </ul>
+          <div className='grid grid-cols-2 pl-4 text-red-50'>
+            <div>
+              <h2><a className="staticlink py-1 text-md text-white" href="#sheets"> &nbsp; Sheets Repo <b className="text-sm">&nbsp;↓</b></a></h2>
+              <ul className="pl-4 text-red-50">
+                {data.scores.map((item) => <li>{item.title}</li>)}
+              </ul>
+            </div>
+            <div>
+              <a className="staticlink py-1 text-md text-white" href="#poems"> &nbsp; Poetry <b className="text-sm">&nbsp;↓</b></a>
+              <ul className="pl-4 text-red-50">
+                {data.poems.map((item) => <li>{item.title}</li>)}
+              </ul>
+            </div>
           </div>
-          <a className="staticlink py-1 text-md" href="#poems"> &nbsp; Poetry <b>↓</b> &nbsp; </a>
-          <ul>
-            <li> Bop </li>
-          </ul>
         </section>
       </div>
 
 
 
-      <section id="sheets" className="py-12 layout">
+      <section id="sheets" className="py-16 layout">
         <h1 className="heading">Sheets</h1>
         {<LinkList data={data.scores}></LinkList>}
       </section>
-      <section id="poems" className="py-12 layout">
+      <section id="poems" className="py-16 layout">
         <h1 className="heading">Poetry</h1>
         {<LinkList data={data.poems}></LinkList>}
       </section>
