@@ -39,21 +39,13 @@ export default function Arts() {
 
 
 
-      <section id="sheets">
+      <section id="sheets" className="py-10 layout">
         <h1 className="heading">Sheets</h1>
-        <div className="pb-96">
-          {<LinkList data={data.scores}></LinkList>}
-        </div>
-        {/* Import sheets list component */}
+        {<LinkList data={data.scores}></LinkList>}
       </section>
-      <section id="poems">
+      <section id="poems" className="py-10 layout">
         <h1 className="heading">Poetry</h1>
         {<LinkList data={data.poems}></LinkList>}
-        <div className="pb-96">
-          data.poems.
-
-
-        </div>
       </section>
     </div >
   </>
