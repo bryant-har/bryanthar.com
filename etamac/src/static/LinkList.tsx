@@ -4,14 +4,15 @@ import { ArrowUpRight } from 'lucide-react';
 type ListItem = {
   title: string;
   summary: string;
+  subtitle: string
   link: string;
 };
 
 
 
 export default function SheetsList({ data }: { data: ListItem[] }) {
-
   return <div className="grid gap-y-4">
+
     {data.map((item) =>
       <a
         href={item.link}
@@ -20,9 +21,12 @@ export default function SheetsList({ data }: { data: ListItem[] }) {
         rel="noreferrer"
       >
         <div className="flex flex-col sm:flex-row sm:items-end mb-1.5">
-          <div className="text-lg text-black">
-            {item.title}
+          <div className="text-lg text-black font-normal">
+            {item.title}&nbsp;
             <ArrowUpRight size={18} className="inline text-neutral-400" />
+          </div>
+          <div className="sm:ml-auto mb-0.5 text-neutral-500">
+            {item.subtitle}
           </div>
         </div>
         <div className="text-lg leading-snug font-serif italic">

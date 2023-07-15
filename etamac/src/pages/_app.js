@@ -3,7 +3,7 @@ import Head from 'next/head';
 import CssBaseline from '@mui/material/CssBaseline';
 import "../styles.css"
 import Navbar from "../components/Navbar"
-
+import "@fontsource/newsreader/400-italic.css";
 
 
 const defaultLayout = function getLayout(page) {

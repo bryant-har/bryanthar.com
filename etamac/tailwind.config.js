@@ -10,7 +10,7 @@ const config = {
     extend: {
       fontFamily: {
         sans: [...defaultTheme.fontFamily.sans],
-        serif: [...defaultTheme.fontFamily.serif],
+        serif: ['Newsreader', ...defaultTheme.fontFamily.serif],
       },
     },
   },

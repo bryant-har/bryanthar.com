@@ -8,7 +8,7 @@ export default function Arts() {
   console.log(data.poems)
   return <>
     <div>
-      <section className="pb-36 layout text-lg">
+      <section className="pb-12 layout text-lg">
         <h1 className="heading">Arts</h1>
         <p>
           I do <it className="text-purple-400">~creative~</it> stuff sometimes. <span className=" text-sm bg-green-100"> ¯\_(ツ)_/¯ </span>
@@ -21,8 +21,8 @@ export default function Arts() {
         </p>
       </section >
 
-      <div className="bg-gray-900 text-neutral-200 dark">
-        <section className="py-12 layout">
+      <div className="bg-gray-900 py-12 text-neutral-200 dark">
+        <section className="pb-12 layout">
           <h1 className="heading text-white" >Table of Contents</h1>
           <h2><a className="staticlink py-1 text-md" href="#sheets"> &nbsp; Sheets Repo <b>↓</b> &nbsp;</a></h2>
           <div className='pl-4'>
@@ -39,11 +39,11 @@ export default function Arts() {
 
 
 
-      <section id="sheets" className="py-10 layout">
+      <section id="sheets" className="py-12 layout">
         <h1 className="heading">Sheets</h1>
         {<LinkList data={data.scores}></LinkList>}
       </section>
-      <section id="poems" className="py-10 layout">
+      <section id="poems" className="py-12 layout">
         <h1 className="heading">Poetry</h1>
         {<LinkList data={data.poems}></LinkList>}
       </section>
