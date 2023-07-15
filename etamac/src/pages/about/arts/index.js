@@ -1,11 +1,11 @@
 import Layout from "../../../static/Layout";
 import data from './arts.yaml'
-import SheetItem from '../../../static/SheetItem'
+import LinkList from '../../../static/LinkList'
 Arts.getLayout = Layout
 
 
 export default function Arts() {
-  console.log(data)
+  console.log(data.poems)
   return <>
     <div>
       <section className="pb-36 layout text-lg">
@@ -41,11 +41,14 @@ export default function Arts() {
 
       <section id="sheets">
         <h1 className="heading">Sheets</h1>
-        <div className="pb-96"></div>
+        <div className="pb-96">
+          {<LinkList data={data.scores}></LinkList>}
+        </div>
         {/* Import sheets list component */}
       </section>
       <section id="poems">
         <h1 className="heading">Poetry</h1>
+        {<LinkList data={data.poems}></LinkList>}
         <div className="pb-96">
           data.poems.
 
