@@ -1,5 +1,6 @@
-import Layout from "../../static/Layout";
-import data from './scores.yaml'
+import Layout from "../../../static/Layout";
+import data from './arts.yaml'
+import SheetItem from '../../../static/SheetItem'
 Arts.getLayout = Layout
 
 
@@ -45,7 +46,11 @@ export default function Arts() {
       </section>
       <section id="poems">
         <h1 className="heading">Poetry</h1>
-        <div className="pb-96"></div>
+        <div className="pb-96">
+          data.poems.
+
+
+        </div>
       </section>
     </div >
   </>
