@@ -1,9 +1,36 @@
-InsuranceCompanies: 
- Time: "May 2021"
- "Top Insurance Companies": 
-  - 
-   No: 1
-   Name: "Berkshire Hathaway ( BRK.A)"
-   "Market Capitalization": "$655 billion"
- source: "investopedia.com"
- url: "https://www.investopedia.com/articles/active-trading/111314/top-10-insurance-companies-metrics.asp"                                              
+scores:
+  - title: Schubert
+    summary: Nothing beats a good ol' Henle Urtext, but for when I'm away. You can also probably tell I really like Schubert's works.
+    link: https://drive.google.com/drive/folders/1RRmIp2I_Eccf7PuX0F0xpMJAx4-ycq7M?usp=drive_link
+  - title: Chopin
+    summary: I'm definitely a big fan of the Romantic era. It just sounds so colorful and dramatic! So here's Chopin.
+    link: https://drive.google.com/drive/folders/1SWg54j6VFL66_LghZFY6-2wW-Kn87FcS?usp=drive_link
+  - title: Assorted
+    summary: Miscellaneous composers from a variety of eras. Next up is a Shostakovich piece hopefully sometime soon...
+    link: https://drive.google.com/drive/folders/1RRmIp2I_Eccf7PuX0F0xpMJAx4-ycq7M?usp=drive_link
+
+
+poems:
+  - title: Shakespeare - Sonnet 18
+    summary: Shall I compare thee to a summer's day?
+    link: https://www.poetryfoundation.org/poems/45087/sonnet-18-shall-i-compare-thee-to-a-summers-day
+  - title: Walt Whitman - When I heard the learn'd astronomer
+    summary: ~Look'd up in perfect silence at the stars.
+    link: https://www.poetryfoundation.org/poems/45479/when-i-heard-the-learnd-astronomer
+  - title: Walt Whitman - O Captain! My Captain!
+    summary: Oh Heart Heart Heart!
+    link: https://www.poetryfoundation.org/poems/45474/o-captain-my-captain
+  - title: Thomas Hardy - The Darkling Thrush
+    summary: Reminiscences of a long past quizbowl...
+    link: https://www.poetryfoundation.org/poems/44325/the-darkling-thrush
+  - title: Robert Frost - Nothing Gold can Stay
+    summary: English Lit was such a banger. I will miss it! A nice short poem.
+    link: https://www.poetryfoundation.org/poems/148652/nothing-gold-can-stay-5c095cc5ab679
+  - title: Robert Frost - Fire and Ice 
+    summary:  Another nice short poem. Makes me nostalgic for Game of Thrones.
+    link: https://www.poetryfoundation.org/poems/44263/fire-and-ice
+  - title: Emma Lazarus - The New Colossus
+    summary: Throwback to AP US History. That was a very strange time.
+    link: https://www.poetryfoundation.org/poems/46550/the-new-colossus
+    
+  

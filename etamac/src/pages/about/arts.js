@@ -1,11 +1,10 @@
-import yaml from 'js-yaml';
 import Layout from "../../static/Layout";
+import data from './scores.yaml'
 Arts.getLayout = Layout
 
 
 export default function Arts() {
-
-  console.log(yaml.load('./scores.yaml'))
+  console.log(data)
   return <>
     <div>
       <section className="pb-36 layout text-lg">
