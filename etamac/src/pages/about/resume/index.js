@@ -7,7 +7,12 @@ export default function Writing() {
     <h1 className="heading">
       Education
     </h1>
+    <a href='#coursework'>Coursework</a>
     <h1 className="heading">Certifications</h1>
+
+
+    <h1 id='coursework' className="heading">Relevant Coursework</h1>
+
     {/* todo */}
     {/* Blog Stuff */}
     {/* Fun Facts */}

@@ -8,6 +8,8 @@ export default function P() {
     {/* /#NDA */}
     {/* todo */}
     {/* Stealth Startup */}
+    {/* robot learning */}
+    {/* Use template for projects */}
   </>
 }
 
