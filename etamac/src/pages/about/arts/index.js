@@ -1,7 +1,6 @@
 import Layout from "../../../static/Layout";
 import data from './arts.yaml'
 import LinkList from '../../../static/LinkList'
-import { motion } from "framer-motion"
 Arts.getLayout = Layout
 
 
@@ -27,13 +26,13 @@ const content = <div>
         <div>
           <h2 className="text-white pb-2"><a href="#sheets"> &nbsp; <span className="link">Sheets Repo</span> &nbsp;<b className="text-sm">↓</b></a></h2>
           <ul className="pl-2 text-red-50 list-style: none">
-            {data.scores.map((item) => <li>{item.title}</li>)}
+            {data.scores.map((item, index) => <li key={index} > {item.title}</li>)}
           </ul>
         </div>
         <div>
           <h2 className="text-white pb-2" ><a href="#poems"> &nbsp; <span className="link">Poetry</span> &nbsp; <b className="text-sm">↓</b></a></h2>
           <ul className="pl-2 text-red-50">
-            {data.poems.map((item) => <li>{item.title}</li>)}
+            {data.poems.map((item, index) => <li key={index}>{item.title}</li>)}
           </ul>
         </div>
       </div>
@@ -52,11 +51,7 @@ const content = <div>
 
 
 export default function Arts() {
-  console.log(data.poems)
   return <>
-    <motion.div exit={{ opacity: 0 }}>
-      {content}
-    </motion.div>
+    {content}
   </>
-
 }
