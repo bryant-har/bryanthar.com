@@ -5,7 +5,7 @@ About.getLayout = layout
 export default function About() {
   return (
     <>
-      <Transition>
+      <Transition keyid='about'>
         <p className="text-black text-xl leading-tight font-light mb-16 layout"
         >
           <span className="g">is a</span> software engineer<span className={"g"}>,</span><br />

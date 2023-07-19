@@ -4,7 +4,7 @@ Projects.getLayout = layout
 
 export default function Projects() {
   return <>
-    <Transition key='projects'>
+    <Transition keyid='projects'>
       <section className="layout">
         <h1 className="heading">Projects and Writings</h1>
       </section>

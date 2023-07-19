@@ -3,7 +3,7 @@ Writing.getLayout = layout
 
 export default function Writing() {
   return <>
-    <Transition>
+    <Transition keyid='resume'>
       <section className="layout">
         <h1 className="heading">
           Education
