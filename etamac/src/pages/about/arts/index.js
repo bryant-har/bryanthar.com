@@ -25,20 +25,20 @@ const content = <div>
       <h1 className="heading text-white" >Table of Contents</h1>
       <div className='grid grid-cols-2 pl-4 text-red-50'>
         <div>
-          <h2><a className="py-1 text-md text-white" href="#sheets"> &nbsp; <span className="link">Sheets Repo</span> &nbsp;<b className="text-sm">↓</b></a></h2>
+          <h2 className="text-white pb-2"><a href="#sheets"> &nbsp; <span className="link">Sheets Repo</span> &nbsp;<b className="text-sm">↓</b></a></h2>
           <ul className="pl-2 text-red-50 list-style: none">
             {data.scores.map((item) => <li>{item.title}</li>)}
           </ul>
         </div>
         <div>
-          <a className="py-1 text-md text-white" href="#poems"> &nbsp; <span className="link">Poetry</span> &nbsp; <b className="text-sm">↓</b></a>
+          <h2 className="text-white pb-2" ><a href="#poems"> &nbsp; <span className="link">Poetry</span> &nbsp; <b className="text-sm">↓</b></a></h2>
           <ul className="pl-2 text-red-50">
             {data.poems.map((item) => <li>{item.title}</li>)}
           </ul>
         </div>
       </div>
     </section>
-  </div>
+  </div >
   <section id="sheets" className="py-16 layout">
     <h1 className="heading">Sheets</h1>
     {<LinkList data={data.scores}></LinkList>}
@@ -57,7 +57,6 @@ export default function Arts() {
     <motion.div exit={{ opacity: 0 }}>
       {content}
     </motion.div>
-
   </>
 
 }

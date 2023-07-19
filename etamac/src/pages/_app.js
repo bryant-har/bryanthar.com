@@ -20,7 +20,7 @@ export default function App({ Component, Props }) {
   const getLayout = (Component.getLayout ?? defaultLayout)
 
   return (
-    <AnimatePresence mode='wait'>
+    <AnimatePresence>
       < Head >
         <title>EtaMac</title>
       </Head >
