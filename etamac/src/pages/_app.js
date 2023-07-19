@@ -4,6 +4,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import "../styles.css"
 import Navbar from "../components/Navbar"
 import "@fontsource/newsreader/400-italic.css";
+import { AnimatePresence } from "framer-motion";
 
 
 const defaultLayout = function getLayout(page) {
@@ -19,13 +20,12 @@ export default function App({ Component, Props }) {
   const getLayout = (Component.getLayout ?? defaultLayout)
 
   return (
-    <>
+    <AnimatePresence mode='wait'>
       < Head >
         <title>EtaMac</title>
       </Head >
       {getLayout(<Component {...Props} />)}
-
-    </>
+    </AnimatePresence>
   )
 };
 

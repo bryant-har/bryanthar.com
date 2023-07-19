@@ -10,7 +10,7 @@ type ListItem = {
 
 
 
-export default function SheetsList({ data }: { data: ListItem[] }) {
+export default function LinkList({ data }: { data: ListItem[] }) {
   return <div className="grid gap-y-4">
 
     {data.map((item) =>

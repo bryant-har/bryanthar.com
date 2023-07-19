@@ -4,7 +4,9 @@ P.getLayout = layout
 
 export default function P() {
   return <>
-    <h1>Projects and Writings</h1>
+    <section className="layout">
+      <h1 className="heading">Projects and Writings</h1>
+    </section>
     {/* /#NDA */}
     {/* todo */}
     {/* Stealth Startup */}
