@@ -20,12 +20,12 @@ export default function App({ Component, Props }) {
   const getLayout = (Component.getLayout ?? defaultLayout)
 
   return (
-    <AnimatePresence>
+    <>
       < Head >
         <title>EtaMac</title>
       </Head >
       {getLayout(<Component {...Props} />)}
-    </AnimatePresence>
+    </>
   )
 };
 

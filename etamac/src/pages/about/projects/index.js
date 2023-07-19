@@ -1,17 +1,19 @@
-import layout from "../../../static/Layout";
+import { layout, Transition } from "../../../static/Layout.js";
 
-P.getLayout = layout
+Projects.getLayout = layout
 
-export default function P() {
+export default function Projects() {
   return <>
-    <section className="layout">
-      <h1 className="heading">Projects and Writings</h1>
-    </section>
-    {/* /#NDA */}
-    {/* todo */}
-    {/* Stealth Startup */}
-    {/* robot learning */}
-    {/* Use template for projects */}
+    <Transition key='projects'>
+      <section className="layout">
+        <h1 className="heading">Projects and Writings</h1>
+      </section>
+      {/* /#NDA */}
+      {/* todo */}
+      {/* Stealth Startup */}
+      {/* robot learning */}
+      {/* Use template for projects */}
+    </Transition>
   </>
 }
 
