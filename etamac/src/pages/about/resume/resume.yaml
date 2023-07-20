@@ -1,59 +1,92 @@
+
+
+
+
 coursework:
-  - Code: CS 1340: Ethical Consequences of Computing
-    Summary:
-    Semester:
-    Notes: 
   - Code: CS 2110: Data Structures and Algorithms
-    Summary:
-    Semester:
+    Summary: Programming in Java. Testing, Graph-based Algorithms, Dijkstra's / A Star, Recursion, Programming Best Practices, Time Complexity Analysis.
+    from: Fall 2021
     Notes: Was a TA for this class FA23.
-  - Code: CS 3110: Functional Programming
-    Summary:
-    Semester:
+  - Code: CS 2800: Discrete Math
+    Summary: Discrete mathematics wrt computer science. Formal Proof Techniques, Induction, Combinatorics, Set Theory, Number Theory, Modular Arithmetic.
+    from: Spring 2022
     Notes: 
-  - Code: CS 4820: Algorithmnic Analysis 
-    Summary:
-    Semester:
+  - Code: CS 3110: Functional Programming
+    Summary: Functional Programming in Ocaml, Red-Black Trees, Hindley-Milner, Formal Verification, Testing.
+    from: Fall 2022
+    Notes: 
+  - Code: CS 3420: Embedded Systems
+    Summary: Programming with embedded systems in C and Assembly. Real Time Systems, Scheduling Algorithms, Scheduling Analysis, Low-level Programming, Computer Architecture, Hardware Analysis.
+    from: Spring 2023
+    Notes: 
+  - Code: CS 4820: Analysis of Algorithmns 
+    Summary: Formal treatment of algorithmnic analysis. NP Complexity Analysis, Proof Techniques for Program Correctness, Greedy Algorithms, Flow Algorithms, Graph Algorithms, Pairing Algorithms, Divide and Conquer, Integer/Linear Programming, Heuristics.
+    from: Spring 2023
+    Notes: 
+  - Code: CS 4414: Operating Systems
+    Summary: Operating Systems and scheduling.
+    from: Fall 2023
     Notes: 
   - Code: CS 4750: Foundations of Robotics
-    Summary:
-    Semester:
-    Notes: 
+    Summary: Robotics
+    from: Fall 2022
+    Notes: Robotics using ROS and Python. Ziegler-Nichols Heuristic, David-Hartenburg Parameters, MPC/PID Control Schemes, Kalman Filters, Bayesian Inference, ROS / Numpy, Dubins Pathing, Replanning, Matrix Transforms.
   - Code: CS 4756: Reinforcement Learning and Robotics
-    Summary:
-    Semester:
+    Summary: Application of reinforcement learning techniques and control schemes in modern robotics systems and modern challenges. Formal Proof Techniques in Control Systems, Cross-Entropy Methods, Monte-Carlo Simulations, Dynamic Programming, DAgger Algorithms, Behavior Cloning, REINFORCE Algorithm, Variance Accumulation, Error Cascades, Markov Decision Processes, Supervised Machine Learning, Model Retraining.
+    from: Spring 2023 
     Notes: 
   - Code: CS 4787: Large Scale Machine Learning
     Summary: Designing and programming large, scalable machine learning systems in modern systems. Algorithmic and implementation principles to process big data. Parallel/distributed training, online learning, model compression.
-    Semester:
+    from: Fall 2023
+    Notes: 
+  - Code: CS 1340: Ethics of Computing
+    Summary: Social effects and ethics of technology. Bayesian inference, networks, statistical modelling, legal studies regarding privacy, differential privacy.
+    from: Spring 2022
+    Notes: 
+  - Code: ECE 2300: Digital Logic and Boolean Algebra
+    Summary: Boolean algebra, karnaugh maps, caching, metastability and time analysis, logic gates, CLA adders, virtual memory.
+    from: Spring 2022
+    Notes: Was a TA for this class FA23.
+
+  - Code: MATH 1920 - Multivariable Calculus
+    Summary: Placed Out.
+    from: N/A
+    Notes: 
+ - Code: MATH 2940 - Linear Algebra
+    Summary: Standard linear algebra.
+    from: Fall 2021
+    Notes: 
+ - Code: MATH 2930 - Differential Equations and PDEs
+    Summary: Standard differential equations. Additionally covers PDEs.
+    from: Spring 2022
     Notes: 
   - Code: PHYS 1116-2214 - Honors Introductory Physics Sequence 
-    Summary:
-    Semester:
+    Summary: Introductory Physics sequence. Mechanics, Electromagnetism, Waves.
+    from: Fall 2021 - Spring 2022
     Notes: 
   - Code: AEP 3200 - Mathematical Physics
-    Summary:
-    Semester:
+    Summary: Tensor Calculus, Complex Analysis, Dirac-Delta Distributions, Fourier and Laplace Transforms, Method of Frobenius, Group Theory, Christoffel Symbols, Calculus of Variations
+    from: Spring 2023
     Notes: 
   - Code: AEP 4200 - Intermediate Mathematical Physics
-    Summary:
-    Semester:
-    Notes: 
+    Summary: See Course Page
+    from: Fall 2023
+    Notes: See Course Page
   - Code: AEP 3610  - Intro Quantum Mechanics
-    Summary:
-    Semester:
+    Summary: See Course Page
+    from: Fall 2023
     Notes: 
   - Code: AEP 3620  - Intermediate Quantum Mechanics
-    Summary:
-    Semester:
+    Summary: See Course Page
+    from: Spring 2024
     Notes: 
   - Code: AEP 3330  - Classical Dynamics of Particles
-    Summary:
-    Semester:
+    Summary: See Course Page
+    from: Fall 2023
     Notes: 
   - Code: AEP 4230  - Statistical Thermodynamics
-    Summary:
-    Semester:
+    Summary: See Course Page
+    from: Fall 2024
     Notes: 
 
 

@@ -1,49 +1,49 @@
 scores:
   - title: Schubert Works
     summary: A friend gifted me a Henle Urtext of Schubert's Vier impromptus and Moments Musicaux. In other words, I really like Schubert.
-    subtitle: 1
+    from: 1
     link: https://drive.google.com/drive/folders/1RRmIp2I_Eccf7PuX0F0xpMJAx4-ycq7M
   - title: Chopin Works
     summary: The Romantic era is definitely a favorite. The sounds are colorful and dramatic. Chopin stands out on top.
-    subtitle: 2
+    from: 2
     link: https://drive.google.com/drive/folders/1SWg54j6VFL66_LghZFY6-2wW-Kn87FcS
   - title: Assorted Works
     summary: Miscellaneous composers from a variety of eras. Next up is a Shostakovich piece hopefully sometime soon...
-    subtitle: 3
+    from: 3
     link: https://drive.google.com/drive/folders/1RRmIp2I_Eccf7PuX0F0xpMJAx4-ycq7M
   - title: Miscellaneous Others
     summary: Truly random stuff... Mostly non-classical show themes.
-    subtitle: 4
+    from: 4
     link: https://drive.google.com/drive/folders/1GUsh1Re0WEkL1qn_1FRTsYAtlkfI7Lh1
 
 poems:
   - title: Sonnet 18
     summary: Shall I compare thee to a summer's day? The first "serious" poem that I memorized.
-    subtitle: Shakespeare
+    from: Shakespeare
     link: https://www.poetryfoundation.org/poems/45087/sonnet-18-shall-i-compare-thee-to-a-summers-day
   - title: When I Heard the Learn’d Astronomer 
     summary: Look'd up in perfect silence at the stars.
-    subtitle: Walt Whitman
+    from: Walt Whitman
     link: https://www.poetryfoundation.org/poems/45479/when-i-heard-the-learnd-astronomer
   - title:  O Captain! My Captain!
     summary: Classic poem of mourning. Saving it in memory for when the time is right.
     link: https://www.poetryfoundation.org/poems/45474/o-captain-my-captain
-    subtitle: Walt Whitman
+    from: Walt Whitman
   - title: The Darkling Thrush
     summary: Reminiscences of a long past quizbowl... Dark.
-    subtitle: Thomas Hardy
+    from: Thomas Hardy
     link: https://www.poetryfoundation.org/poems/44325/the-darkling-thrush
   - title: Nothing Gold can Stay
     summary: A throwback to English Lit. I will miss it and I won't miss it! Otherwise, a nice short poem.
-    subtitle: Robert Frost
+    from: Robert Frost
     link: https://www.poetryfoundation.org/poems/148652/nothing-gold-can-stay-5c095cc5ab679
   - title: Fire and Ice 
     summary: Another nice short poem. Not to be confused in namesake with Game of Thrones.
-    subtitle: Robert Frost
+    from: Robert Frost
     link: https://www.poetryfoundation.org/poems/44263/fire-and-ice
   - title: The New Colossus
     summary: Throwback to AP US History. That was a very strange time.
-    subtitle: Emma Lazarus
+    from: Emma Lazarus
     link: https://www.poetryfoundation.org/poems/46550/the-new-colossus
     
   
