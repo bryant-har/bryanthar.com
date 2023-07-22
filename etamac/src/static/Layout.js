@@ -3,7 +3,6 @@ import React from 'react'
 import { AnimatePresence, motion } from "framer-motion"
 
 const Transition = ({ keyid, children }) => {
-  console.log(keyid)
   return <motion.div
     initial={{ x: -15, opacity: 0 }}
     animate={{ x: 0, opacity: 1, ease: "easeOut" }}
