@@ -3,47 +3,47 @@
 
 
 coursework:
-  - title: CS 2110: Data Structures and Algorithms
+  - title: CS 2110 - Data Structures and Algorithms
     desc: Programming in Java. Testing, Graph-based Algorithms, Dijkstra's / A Star, Recursion, Programming Best Practices, Time Complexity Analysis.
     date: Fall 2021
     notes: Was a TA for this class FA23.
-  - title: CS 2800: Discrete Math
+  - title: CS 2800 - Discrete Math
     desc: Discrete mathematics wrt computer science. Formal Proof Techniques, Induction, Combinatorics, Set Theory, Number Theory, Modular Arithmetic.
     date: Spring 2022
     notes: 
-  - title: CS 3110: Functional Programming
+  - title: CS 3110 - Functional Programming
     desc: Functional Programming in Ocaml, Red-Black Trees, Hindley-Milner, Formal Verification, Testing.
     date: Fall 2022
     notes: 
-  - title: CS 3420: Embedded Systems
+  - title: CS 3420 - Embedded Systems
     desc: Programming with embedded systems in C and Assembly. Real Time Systems, Scheduling Algorithms, Scheduling Analysis, Low-level Programming, Computer Architecture, Hardware Analysis.
     date: Spring 2023
     notes: 
-  - title: CS 4820: Analysis of Algorithmns 
+  - title: CS 4820 - Analysis of Algorithmns 
     desc: Formal treatment of algorithmnic analysis. NP Complexity Analysis, Proof Techniques for Program Correctness, Greedy Algorithms, Flow Algorithms, Graph Algorithms, Pairing Algorithms, Divide and Conquer, Integer/Linear Programming, Heuristics.
     date: Spring 2023
     notes: 
-  - title: CS 4414: Operating Systems
+  - title: CS 4414 - Operating Systems
     desc: Operating Systems and scheduling.
     date: Fall 2023
     notes: 
-  - title: CS 4750: Foundations of Robotics
+  - title: CS 4750 - Foundations of Robotics
     desc: Robotics
     date: Fall 2022
     notes: Robotics using ROS and Python. Ziegler-Nichols Heuristic, David-Hartenburg Parameters, MPC/PID Control Schemes, Kalman Filters, Bayesian Inference, ROS / Numpy, Dubins Pathing, Replanning, Matrix Transforms.
-  - title: CS 4756: Reinforcement Learning and Robotics
+  - title: CS 4756 - Reinforcement Learning and Robotics
     desc: Application of reinforcement learning techniques and control schemes in modern robotics systems and modern challenges. Formal Proof Techniques in Control Systems, Cross-Entropy Methods, Monte-Carlo Simulations, Dynamic Programming, DAgger Algorithms, Behavior Cloning, REINFORCE Algorithm, Variance Accumulation, Error Cascades, Markov Decision Processes, Supervised Machine Learning, Model Retraining.
     date: Spring 2023 
     notes: 
-  - title: CS 4787: Large Scale Machine Learning
+  - title: CS 4787 - Large Scale Machine Learning
     desc: Designing and programming large, scalable machine learning systems in modern systems. Algorithmic and implementation principles to process big data. Parallel/distributed training, online learning, model compression.
     date: Fall 2023
     notes: 
-  - title: CS 1340: Ethics of Computing
+  - title: CS 1340 - Ethics of Computing
     desc: Social effects and ethics of technology. Bayesian inference, networks, statistical modelling, legal studies regarding privacy, differential privacy.
     date: Spring 2022
     notes: 
-  - title: ECE 2300: Digital Logic and Boolean Algebra
+  - title: ECE 2300 - Digital Logic and Boolean Algebra
     desc: Boolean algebra, karnaugh maps, caching, metastability and time analysis, logic gates, CLA adders, virtual memory.
     date: Spring 2022
     notes: Was a TA for this class FA23.

@@ -41,11 +41,11 @@ export default function Arts() {
       </div >
       <section id="sheets" className="py-16 layout">
         <h1 className="heading">Sheets</h1>
-        {<LinkList data={data.scores}></LinkList>}
+        <LinkList data={data.scores}></LinkList>
       </section>
       <section id="poems" className="py-16 layout">
         <h1 className="heading">Poetry</h1>
-        {<LinkList data={data.poems}></LinkList>}
+        <LinkList data={data.poems}></LinkList>
       </section>
     </div >
   </Transition >
