@@ -1,7 +1,3 @@
-
-
-
-
 coursework:
   - title: CS 2110 - Data Structures and Algorithms
     desc: Programming in Java. Testing, Graph-based Algorithms, Dijkstra's / A Star, Recursion, Programming Best Practices, Time Complexity Analysis.
@@ -52,11 +48,11 @@ coursework:
     desc: Placed Out.
     date: N/A
     notes: 
- - title: MATH 2940 - Linear Algebra
+  - title: MATH 2940 - Linear Algebra
     desc: Standard linear algebra.
     date: Fall 2021
     notes: 
- - title: MATH 2930 - Differential Equations and PDEs
+  - title: MATH 2930 - Differential Equations and PDEs
     desc: Standard differential equations. Additionally covers PDEs.
     date: Spring 2022
     notes: 
