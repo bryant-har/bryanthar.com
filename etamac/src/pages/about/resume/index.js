@@ -16,8 +16,8 @@ export default function Writing() {
 
       <section className="layout">
         <h1 id='coursework' className="heading">Relevant Coursework</h1>
+        <NoLinkList data={data.coursework}> </NoLinkList>
       </section>
-      <NoLinkList data={data.coursework}> </NoLinkList>
 
       {/* todo */}
       {/* Blog Stuff */}
