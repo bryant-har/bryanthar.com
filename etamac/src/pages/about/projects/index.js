@@ -13,6 +13,7 @@ export default function Projects() {
       {/* Stealth Startup */}
       {/* robot learning */}
       {/* Use template for projects */}
+      {/* Various demonstrations of algo projects... from cs 4820. For fun! */}
     </Transition>
   </>
 }
