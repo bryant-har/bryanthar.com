@@ -10,7 +10,7 @@ const layout = ((page, key) => (
       <motion.div
         initial={{ x: -10, opacity: 0 }}
         animate={{ x: 0, opacity: 1, ease: "linear" }}
-        transition={{ duration: 0.35, delay: 0.35 }}
+        transition={{ duration: 0.25, delay: 0 }}
         exit={{ y: 5, opacity: 0 }}
         key={key}
       >

@@ -13,7 +13,7 @@ export default function Writing() {
 
 
 
-      <a href='#coursework'><p className='link'>Coursework</p></a>
+      <a href='#coursework'><p className='link'>Technical Coursework</p></a>
       <h1 className="heading">Certifications</h1>
     </section>
     {/* Nationally Certified EMT DURING COVID */}
@@ -28,7 +28,7 @@ export default function Writing() {
 
     <a id='coursework'><div className="bg-gray-900 py-12 text-neutral-200 dark">
       <section className="layout">
-        <h1 className="heading text-white" >Coursework</h1>
+        <h1 className="heading text-white" >Technical Coursework</h1>
       </section>
     </div ></a>
 
