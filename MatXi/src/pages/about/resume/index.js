@@ -1,7 +1,6 @@
 import data from './resume.yaml'
 import NoLinkList from '../../../static/NoLinkList'
-import { layout, Transition } from "../../../static/Layout.js"
-import { motion } from 'framer-motion'
+import { layout } from "../../../static/Layout.js"
 Writing.getLayout = layout
 
 export default function Writing() {
@@ -17,7 +16,7 @@ export default function Writing() {
       <a href='#coursework'>Coursework</a>
       <h1 className="heading">Certifications</h1>
     </section>
-
+    {/* Nationally Certified EMT DURING COVID */}
     {/* todo */}
     {/* Blog Stuff */}
     {/* Fun Facts */}
