@@ -6,7 +6,7 @@ export default function Projects() {
   return <>
     <Transition keyid='projects'>
       <section className="layout">
-        <h1 className="heading">Projects and Writings</h1>
+        <h1 className="heading">Projects</h1>
       </section>
       {/* /#NDA */}
       {/* todo */}
