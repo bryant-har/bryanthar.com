@@ -9,7 +9,7 @@ const layout = ((page, key) => (
     <AnimatePresence mode="wait">
       <motion.div
         initial={{ x: -10, opacity: 0 }}
-        animate={{ x: 0, opacity: 1, ease: "easeOut" }}
+        animate={{ x: 0, opacity: 1, ease: "linear" }}
         transition={{ duration: 0.35, delay: 0.35 }}
         exit={{ y: 5, opacity: 0 }}
         key={key}

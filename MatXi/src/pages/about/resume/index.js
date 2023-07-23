@@ -13,7 +13,7 @@ export default function Writing() {
 
 
 
-      <a href='#coursework'>Coursework</a>
+      <a href='#coursework'><p className='link'>Coursework</p></a>
       <h1 className="heading">Certifications</h1>
     </section>
     {/* Nationally Certified EMT DURING COVID */}
