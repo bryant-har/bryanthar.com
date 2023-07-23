@@ -4,8 +4,8 @@ import CssBaseline from '@mui/material/CssBaseline';
 import "../styles.css"
 import Navbar from "../components/Navbar"
 import "@fontsource/newsreader/400-italic.css";
-import { AnimatePresence } from "framer-motion";
-
+import { AnimatePresence } from 'framer-motion';
+import { useRouter } from 'next/router';
 
 const defaultLayout = function getLayout(page) {
   return (
@@ -18,13 +18,15 @@ const defaultLayout = function getLayout(page) {
 };
 export default function App({ Component, Props }) {
   const getLayout = (Component.getLayout ?? defaultLayout)
+  const router = useRouter();
 
   return (
     <>
       < Head >
-        <title>EtaMac</title>
+        <title>MatXi</title>
       </Head >
-      {getLayout(<Component {...Props} />)}
+      {getLayout(<Component {...Props} />, router.asPath)}
+
     </>
   )
 };
