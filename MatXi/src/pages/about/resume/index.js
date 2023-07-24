@@ -16,7 +16,7 @@ export default function Writing() {
         <p class="byline">B.S. in Computer Science, Engineering Physics, English</p>
       </div>
 
-      <p>GPA: 4.1/4.2 Deans List, all years eligible.</p>
+      <p>GPA: 4.1/4.2, Award for Excellence in Physics, Deans List, all years eligible.</p>
 
       <h2 class="font-medium mt-4 mb-1">Teaching:</h2>
       <ul>
@@ -35,7 +35,14 @@ export default function Writing() {
         <li></li>
       </ul>
     </section>
-    <h1 className="heading">Certifications</h1>
+    <section class="layout-md py-12">
+      <h2 class="heading">Professional Experience</h2>
+    </section>
+    <section class="layout-md py-12">
+      <h2 class="heading">Research Experience</h2>
+    </section>
+
+    <h1 className="heading">Assorted Accomplishments and Activities</h1>
     {/* Nationally Certified EMT DURING COVID */}
     {/* todo */}
     {/* Blog Stuff */}

@@ -25,6 +25,9 @@ export default function LinkList({ data }: { data: ListItem[] }) {
         <div className="text-sm leading-snug font-serif font-light">
           {item.desc}
         </div>
+        <div className="text-xs pt-2 leading-snug font-serif font-light">
+          {item.notes}
+        </div>
       </>
     )}
   </div>
