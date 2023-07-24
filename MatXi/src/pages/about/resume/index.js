@@ -37,6 +37,10 @@ export default function Writing() {
     </section>
     <section class="layout-md py-12">
       <h2 class="heading">Professional Experience</h2>
+      {/* Stealth Startup, involved ML with document processing. Description: Refined api and developed react front-end for document processing for a stealth startup. */}
+      {/* Invictis BCI, Biotechnology startup ML with document processing */}
+      {/* Tutor for MyMentor. Tutored International students in durign school year */}
+
     </section>
     <section class="layout-md py-12">
       <h2 class="heading">Research Experience</h2>
@@ -44,6 +48,7 @@ export default function Writing() {
 
     <h1 className="heading">Assorted Accomplishments and Activities</h1>
     {/* Nationally Certified EMT DURING COVID */}
+    {/* 1590/1600 SAT, top 1% of class */}
     {/* todo */}
     {/* Blog Stuff */}
     {/* Fun Facts */}
