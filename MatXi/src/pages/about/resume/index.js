@@ -5,17 +5,37 @@ Writing.getLayout = layout
 
 export default function Writing() {
   return <>
-    <section className="layout">
-      <h1 className="heading">
-        Education
-      </h1>
+    <section class="layout-md py-12">
+      <h2 class="heading2">Education</h2>
 
+      <div class="mb-4">
+        <div class="flex justify-between items-end">
+          <h3 class="text-black text-lg">Cornell University</h3>
+          <div class="text-neutral-500 mb-0.5">2021 — 2025</div>
+        </div>
+        <p class="byline">B.S. in Computer Science, Engineering Physics, English</p>
+      </div>
 
+      <p>GPA: 4.1/4.2 Deans List, all years eligible.</p>
 
+      <h2 class="font-medium mt-4 mb-1">Teaching:</h2>
+      <ul>
+        <li>
+          TA for CS 2110 (Data Structures and Algorithms), Fall 2023
+        </li>
+        <li>
+          Advised for <a class="link" href="https://en.wikipedia.org/wiki/Governor%27s_School_of_New_Jersey">
+            Governor's School of the Scienes (NJGSS)</a>, Summer 2022
+        </li>
+      </ul>
 
-      <a href='#coursework'><p className='link'>Technical Coursework</p></a>
-      <h1 className="heading">Certifications</h1>
+      <a href='#coursework'><p className=' font-mediium mt-4 mb-1 link'>Technical Coursework</p></a>
+      <h2 class="font-medium mt-4 mb-1">Graduate-level technical coursework:</h2>
+      <ul>
+        <li></li>
+      </ul>
     </section>
+    <h1 className="heading">Certifications</h1>
     {/* Nationally Certified EMT DURING COVID */}
     {/* todo */}
     {/* Blog Stuff */}
