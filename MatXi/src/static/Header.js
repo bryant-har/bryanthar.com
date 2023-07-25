@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-
+import { GithubIcon } from 'lucide-react';
 
 const links = [
   { name: "projects", href: "/about/projects" },
@@ -30,20 +30,25 @@ export default function Header() {
   }, [router.pathname]);
 
   return (
-    <header
-      className=" layout flex justify-between items-start text-neutral-400"
-    >
-      <h1 className="font-bold text-black text-2xl mb-6">
-        <Link href="/about">Bryant Har </Link>
-        {pageTitle ?
-          (<span className='page-title' >
-            <span className="text-neutral-400">—</span> {pageTitle}
-          </span>) : null
-        }
-      </h1>
-      <div className="flex items-start justify-end space-x-6 text-lg">
-        {linkjs}
-      </div>
-    </header >
+    <div>
+      <header
+        className=" layout flex justify-between items-start text-neutral-400"
+      >
+        <h1 className="font-bold text-black text-2xl mb-6">
+          <Link href="/about">Bryant Har </Link>
+          {pageTitle ?
+            (<span className='page-title' >
+              <span className="text-neutral-400">—</span> {pageTitle}
+            </span>) : null
+          }
+        </h1>
+        <div className="flex items-start justify-end space-x-6 text-lg">
+          {linkjs}
+        </div>
+      </header >
+
+      <a href='https://github.com/dreamShepherd'><Github /></a>
+      <a href='https://lichess.org/@/DreamShepherd'> Lichess </a>
+    </div>
   );
 }
