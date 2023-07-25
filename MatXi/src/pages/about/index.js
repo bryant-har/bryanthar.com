@@ -7,11 +7,11 @@ export default function About() {
     <>
       <p className="text-black text-xl leading-tight font-light mb-16 layout"
       >
-        <span className="g">is a</span> software engineer<span className={"g"}>,</span><br />
+        <span className="g">is a </span> software engineer<span className={"g"}>,</span><br />
         researcher<span className={"g"}>, and</span><br />
-        designer<span className={"g"}>.</span>
+        generalist<span className={"g"}>.</span>
       </p>
-
+      <section> <h1>Quick Links</h1></section>
       <div className="text-lg space-y-14 layout">
         <div className="space-y-5">
           <p>
