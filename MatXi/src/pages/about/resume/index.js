@@ -46,15 +46,15 @@ export default function Writing() {
       <h2 class="heading">Research Experience</h2>
     </section>
 
-    <h1 className="heading">Assorted Accomplishments and Activities</h1>
-    {/* Nationally Certified EMT DURING COVID */}
-    {/* 1590/1600 SAT, top 1% of class */}
-    {/* todo */}
-    {/* Blog Stuff */}
-    {/* Fun Facts */}
-    {/* Notes */}
-    {/* Classes Taken And Notes For those classes */}
-    {/* Make tabs like Geoff */}
+    <section><h1 className="heading">Assorted Accomplishments and Activities</h1>
+      <ul>
+        {data.random.map((item, index) => <li key={index} className='flex'>
+          <div>{item.title}</div>
+          <div class="flex-grow: 1 align-self: center border-bottom: 1px dashed"></div>
+          <div>{item.desc}</div>
+        </li>)}
+      </ul>
+    </section >
 
 
 

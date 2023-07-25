@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { GithubIcon } from 'lucide-react';
-import Lichess from './lichess.svg';
 
 const links = [
   { name: "projects", href: "/about/projects" },
