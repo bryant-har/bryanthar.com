@@ -22,10 +22,7 @@ const layout = ((page, key) => (
       <p className='link'>
         Email: BJHHar6475@gmail.com
         Github: <a href='https://github.com/dreamShepherd'>@DreamShepherd</a>
-        LinkedIn:
         Lichess (Alt): <a href='lichess.org/@/BJHHar6475'>@BJHHar6475</a>
-
-
       </p>
 
     </div>
