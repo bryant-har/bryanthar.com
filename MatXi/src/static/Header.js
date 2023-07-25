@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { GithubIcon } from 'lucide-react';
+import Lichess from './lichess.svg';
 
 const links = [
   { name: "projects", href: "/about/projects" },
@@ -47,8 +48,8 @@ export default function Header() {
         </div>
       </header >
 
-      <a href='https://github.com/dreamShepherd'><Github /></a>
-      <a href='https://lichess.org/@/DreamShepherd'> Lichess </a>
+      <a href='https://github.com/dreamShepherd'><GithubIcon /></a>
+      <a href='https://lichess.org/@/DreamShepherd'><img src='./static/lichess.png'></img> </a>
     </div>
   );
 }
