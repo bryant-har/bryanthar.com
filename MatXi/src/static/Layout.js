@@ -18,15 +18,14 @@ const layout = ((page, key) => (
         {page}
       </motion.div>
     </AnimatePresence>
-    <div>
-      <p className='link'>
-        Email: BJHHar6475@gmail.com
-        Github: <a href='https://github.com/dreamShepherd'>@DreamShepherd</a>
-        Lichess (Alt): <a href='lichess.org/@/BJHHar6475'>@BJHHar6475</a>
-      </p>
-
-    </div>
-  </div>
+    <section className='layout'>
+      <ul className='link text-sm mt-16 space-y-2'>
+        <li>Email: <a href='mailto:bryanhar100@gmail.com'>bryanthar100@gmail.com</a></li>
+        <li>Github: <a href='https://github.com/dreamShepherd'>@DreamShepherd</a></li>
+        <li>Linkedin: <a href='https://www.linkedin.com/in/bryant-har-a260ab186/'>@bryant-har</a></li>
+      </ul>
+    </section>
+  </div >
 ))
 
 export { layout }
