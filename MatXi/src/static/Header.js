@@ -15,6 +15,7 @@ export default function Header() {
     <Link
       href={link.href}
       key={index}
+      scroll={false}
       className={`hover:text-blue-300 transition-colors ${router.pathname === link.href ? "text-black" : ""}`}
     >
       {link.name}</ Link>);
@@ -34,7 +35,7 @@ export default function Header() {
         className=" flex justify-between items-start text-neutral-400"
       >
         <h1 className="font-bold text-black text-2xl mb-6">
-          <Link href="/about">Bryant Har </Link>
+          <Link scroll={false} href="/about">Bryant Har </Link>
           {pageTitle ?
             (<span className='page-title' >
               <span className="text-neutral-400">—</span> {pageTitle}

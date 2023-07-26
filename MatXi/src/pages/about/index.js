@@ -7,7 +7,7 @@ About.getLayout = layout
 export default function About() {
   return (
     <div className='layout'>
-      <p className="text-black text-xl leading-tight font-light mb-16"
+      <p className="text-black text-xl leading-tight font-light mb-8"
       >
         <span className="g">is a </span> software engineer<span className={"g"}>,</span><br />
         designer<span className={"g"}>, and</span><br />
@@ -15,6 +15,7 @@ export default function About() {
       </p>
 
       <section className='pb-16'>
+        <img className='mx-auto rounded-full' height='auto' width='100' src='./static/ico.png'></img>
         <div className='heading text-2xl text-center mb-2 text-slate-500'>
 
           <Typewriter

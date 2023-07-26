@@ -4,9 +4,9 @@ import { layout } from "../../../static/Layout.js"
 Writing.getLayout = layout
 
 export default function Writing() {
-  return <>
-    <section class="layout py-12">
-      <h2 class="heading2">Education</h2>
+  return <div className='py-12'>
+    <section class="layout">
+      <h2 class="heading">Education</h2>
 
       <div class="mb-4">
         <div class="flex justify-between items-end">
@@ -70,5 +70,5 @@ export default function Writing() {
       <h1 className='heading pt-12'> Math and Physics </h1>
       <NoLinkList data={data.physcoursework}> </NoLinkList>
     </section>
-  </>
+  </div>
 }

@@ -5,9 +5,9 @@ Arts.getLayout = layout
 
 
 export default function Arts() {
-  return <div>
+  return <div className="py-12">
     <section className="pb-12 layout text-lg">
-      <h1 className="heading">Arts</h1>
+      <h1 className="heading">Music and Writings</h1>
       <p>
         I do <it className="text-purple-400">creative</it> stuff sometimes. <span className=" text-sm bg-green-100"> ¯\_(ツ)_/¯ </span>
       </p>
