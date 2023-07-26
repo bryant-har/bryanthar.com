@@ -29,7 +29,7 @@
   }
 
   .margin {
-    @apply py-12 sm:py-24 md:py-32 space-y-14;
+    @apply py-12 sm:py-24 md:py-32;
   }
 
   .heading {

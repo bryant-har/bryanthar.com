@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { GithubIcon } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 const links = [
   { name: "projects", href: "/about/projects" },
@@ -30,9 +30,9 @@ export default function Header() {
   }, [router.pathname]);
 
   return (
-    <div>
+    <div className='layout'>
       <header
-        className=" layout flex justify-between items-start text-neutral-400"
+        className=" flex justify-between items-start text-neutral-400"
       >
         <h1 className="font-bold text-black text-2xl mb-6">
           <Link href="/about">Bryant Har </Link>
@@ -47,8 +47,14 @@ export default function Header() {
         </div>
       </header >
 
-      <a href='https://github.com/dreamShepherd'><GithubIcon /></a>
-      <a href='https://lichess.org/@/DreamShepherd'><img src='./static/lichess.png'></img> </a>
+      {/* <div className=' layout flex items-start justify-start space-x-1'>
+        <a href='https://github.com/dreamShepherd'><img width="24" height="auto" src='./static/github.png'></img></a>
+        <a href='https://lichess.org/@/DreamShepherd'><img width="24" height="auto" src='./static/lichess.ico'></img> </a>
+        <a href='https://discordapp.com/users/bryant3435'><img width="24" height="auto" src='./static/discord.png'></img></a>
+        <a href='https://www.linkedin.com/in/bryant-har-a260ab186/'><img width="24" height="auto" src='./static/linkedin.png'></img></a>
+        <a href='mailto:bryanthar100@gmail.com'><Mail /></a>
+      </div> */}
+
     </div>
   );
 }

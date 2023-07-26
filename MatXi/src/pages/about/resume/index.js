@@ -5,7 +5,7 @@ Writing.getLayout = layout
 
 export default function Writing() {
   return <>
-    <section class="layout-md py-12">
+    <section class="layout py-12">
       <h2 class="heading2">Education</h2>
 
       <div class="mb-4">
@@ -35,18 +35,18 @@ export default function Writing() {
         <li></li>
       </ul>
     </section>
-    <section class="layout-md py-12">
+    <section class="layout py-12">
       <h2 class="heading">Professional Experience</h2>
       {/* Stealth Startup. Description: Refined api and developed react front-end for document processing for a stealth startup. */}
       {/* Invictis BCI, Biotechnology startup ML with document processing */}
       {/* Tutor for MyMentor. Tutored International students in durign school year */}
 
     </section>
-    <section class="layout-md py-12">
+    <section class="layout py-12">
       <h2 class="heading">Research Experience</h2>
     </section>
 
-    <section><h1 className="heading">Assorted Accomplishments and Activities</h1>
+    <section className='layout'><h1 className="heading ">Assorted Accomplishments and Activities</h1>
       <ul>
         {data.random.map((item, index) => <li key={index} className='flex'>
           <div>{item.title}</div>
