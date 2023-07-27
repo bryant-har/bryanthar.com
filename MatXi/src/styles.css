@@ -15,7 +15,7 @@
 
 @layer components {
 
-  .g {
+  .gem {
     @apply text-neutral-400;
   }
 
