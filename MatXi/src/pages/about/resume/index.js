@@ -42,7 +42,6 @@ export default function Writing() {
     </section>
     <section className='layout pb-12'><h1 className="heading "><span className='text-teal-600'>#</span> Assorted Activities</h1>
       <ul className='text-sm grid grid-cols-2 text-neutral-700'>
-        <li>- Enjoys tennis and working out</li>
         <li>- Worked as an EMT during COVID (646230)</li>
         <li>- Rated 1900 in blitz chess; 2300 in puzzles</li>
         <li>- 16.1s PB solving the Rubiks Cube.</li>

@@ -18,11 +18,17 @@ jobs:
       - Developed autoencoders to compress data for use in XGBoost machine learning models.
       - Wrote data preprocessing scripts for video data in Python.
   - title: MyMentor Tutor
-    desc: Tutoring company connecting college students in the United States with international students.
+    desc: Tutoring company connecting college students with international students.
     date: Fall 2021 - Present
     notes: 
-      - Provided tutoring and essay-review services to international students from China, Singapore, among other locations. 
+      - Provided tutoring and essay-review services to international students from China and Singapore. 
       - Prepared 10 students for college life and culture in the United States.
+  - title: Volunteer EMT
+    desc: Hometown EMS Station
+    date: 2021 - 2022
+    notes: 
+      - Certified and nationally registered EMT (646230)
+      - Provided emergency care and responded to 911 calls.
 coursework:
   - title: CS 2110 - Data Structures and Algorithms
     desc: General Programming in Java. Testing, Graph-based Algorithms, Dijkstra's / A Star, Recursion, Programming Best Practices, Time Complexity Analysis.

@@ -41,7 +41,7 @@ export default function About() {
           </p>
           <p>
             My professional experience involves machine learning and statistical analysis.
-            I also enjoy chess, tennis, working out, memorizing poetry, and listening to music.
+            I also enjoy chess, tennis, working out, playing piano, memorizing poetry, and listening to music.
           </p>
         </section>
         <section className='text-sm space-y-4'>
