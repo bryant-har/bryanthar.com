@@ -14,7 +14,7 @@ export default function About() {
         researcher<span className={"g"}>.</span>
       </p>
 
-      <section className='pb-16'>
+      <section className='pb-8'>
         <img className='mx-auto rounded-full' height='auto' width='100' src='./static/ico.png'></img>
         <div className='heading text-2xl text-center mb-2 text-slate-500'>
 
@@ -33,18 +33,44 @@ export default function About() {
         </div>
       </section>
 
-      <div className="text-lg space-y-14 layout">
-        <div className="space-y-5">
+      <div className="">
+        <div className="space-y-5 text-md">
           <p>
-            <em>I currently work</em>
+            Hello! I currently study <span className='text-blue-500'>physics</span> and <span className='text-blue-500'>computer science</span> and <span className='text-blue-500'>English</span> at <b>Cornell University</b>.
+            My academic interests involve applying <b>machine learning</b> and <b>robotics</b>, though I try to be a <b>generalist</b>.
           </p>
           <p>
-            My ambition is to make better interactive software that helps people
-            create, collaborate, learn, and meaningfully express what brings them joy.
+            My professional experience involves machine learning and statistical analysis.
+            I also enjoy chess, tennis, working out memorizing poetry, and listening to music.
           </p>
+          <section className=' text-sm space-y-4'>
+            <h1 className='heading'><span className='text-teal-600'>#</span> Programming</h1>
+            <p>
+              I'm personally interested in <b>web development</b>, <b>robotics</b>, and <b>user design</b>. Check out my <a className='link text-blue-400' href='https://github.com/dreamShepherd'>github</a>. I use the following tools:
+            </p>
+            <p className='leading-relaxed'>
+              <b>Languages:</b> Python · Java · C/C++ · HTML/CSS · Javascript · Wolfram Language · LaTeX <br />
+              <b>Frameworks:</b> NextJS · ReactJS · Tailwind · Bootstrap · ROS · Tensorflow/Keras · PyTorch<br />
+              <b>Tools/Services:</b>VSCode · Firebase · MongoDB · Heroku · Git/Github
+
+            </p>
+          </section>
+          <section className=' text-sm space-y-4'>
+            <h1 className='heading'> <span className='text-teal-600'>#</span> Research</h1>
+            <p>
+              My current research focus is applying machine learning to the sciences. I'm part of an ongoing research project applying
+              machine learning to optimize <a className='link text-blue-400' href='https://en.wikipedia.org/wiki/Stellarator'>stellarator</a> plasma device parameters.
+            </p>
+            <p>
+              Previously, I've worked at the <a href='https://www.spacecraftresearch.com/' className='link'><em>Space Systems Design Studio</em></a>,
+              studying how we can apply computer vision techniques to map lunar materials and regolith from stereo images. Previously, I worked on
+              quantum decoherence with respect to variational quantum eigensolver computations.
+            </p>
+          </section>
+
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 
