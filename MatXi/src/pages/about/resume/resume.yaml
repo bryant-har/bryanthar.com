@@ -1,33 +1,34 @@
-
-    # {/* Nationally Certified EMT DURING COVID */}
-    # {/* 1590/1600 SAT, top 1% of class */}
-random:
-  - title:
-    desc: 
-  - title: 
-    desc: 
-  - title: 1900 in chess blitz; 2400 in puzzles
-    desc: 
-  - title:
-    desc: 
 jobs:
-  - title: Stealth Startup
-    desc: Developed front-end for internal tools using ReactJS. Fixed bugs in ML pipeline using Pytorch.
+  - title: Teacher's Assistant
+    desc: CS 2110 - Data Structures and Algorithms
+    date: Fall 2023 - Present
+    notes: [Teacher's assistant for CS 2110, Hosted office hours for 20+ students.]
+  - title: SWE Intern - Stealth Startup
+    desc: Stealth startup aiming enhance document parsing APIs.
     date: Summer 2023
-    notes: Stealth startup experimenting with LLMs to enhance document parsing APIs.
-  - title: Invictis
-    desc: Developed autoencoders for XGBoost machine learning models to predict hand pose from electromyography waveforms. Wrote data preprocessing scripts for video data in Python.
+    notes: 
+      - Cannot disclose much since it's a stealth startup.
+      - Developed front-end for internal tools using using ReactJS. 
+      - Fixed bugs and optimized ML pipeline using Pytorch.
+  - title: ML Intern - Invictis
+    desc: New York City-based startup specializing in brain-computer interfaces (BCI).
     date: Summer 2022
-    notes: New York City-based startup specializing in brain-computer interfaces (BCI). 
+    notes: 
+      - Worked on hand pose estimation from electrical signals (electromyography waveforms). 
+      - Developed autoencoders to compress data for use in XGBoost machine learning models.
+      - Wrote data preprocessing scripts for video data in Python.
   - title: MyMentor Tutor
-    desc: Provided excellent tutoring and essay-writing services to international students from China, Singapore, among other locations. Further helped prepare 20 clients for college life and culture in the United States.
+    desc: Tutoring company connecting college students in the United States with international students.
     date: Fall 2021 - Present
     notes: 
+      - Provided tutoring and essay-review services to international students from China, Singapore, among other locations. 
+      - Prepared 10 students for college life and culture in the United States.
 coursework:
   - title: CS 2110 - Data Structures and Algorithms
     desc: General Programming in Java. Testing, Graph-based Algorithms, Dijkstra's / A Star, Recursion, Programming Best Practices, Time Complexity Analysis.
     date: Fall 2021
-    notes: Was a TA for this class FA23.
+    notes: 
+      - TA for FA23.
   - title: CS 2800 - Discrete Math
     desc: Discrete mathematics wrt computer science. Formal Proof Techniques, Induction, Combinatorics, Set Theory, Number Theory, Modular Arithmetic.
     date: Spring 2022
@@ -84,7 +85,7 @@ physcoursework:
   - title: PHYS 1116-2214 - Honors Introductory Physics Sequence 
     desc: Introductory Physics sequence. Mechanics, Electromagnetism, Waves.
     date: 2021 -2022
-    notes: Won competition for excellence in physics.
+    notes: [Won competition for excellence in physics.]
   - title: AEP 3200 - Mathematical Physics
     desc: Tensor Calculus, Complex Analysis, Dirac-Delta Distributions, Fourier and Laplace Transforms, Method of Frobenius, Group Theory, Christoffel Symbols, Calculus of Variations
     date: Spring 2023
@@ -109,6 +110,3 @@ physcoursework:
     desc: See Course Page
     date: Fall 2024
     notes: 
-
-
-    # Awards ^^^

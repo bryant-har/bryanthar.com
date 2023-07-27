@@ -5,54 +5,57 @@ Writing.getLayout = layout
 
 export default function Writing() {
   return <div className='py-12'>
-    <section class="layout">
-      <h2 class="heading">Education</h2>
+    <section className="layout font-light space-y-4">
+      <h1 className="heading">Education</h1>
 
-      <div class="mb-4">
-        <div class="flex justify-between items-end">
-          <h3 class="text-black text-lg">Cornell University</h3>
-          <div class="text-neutral-500 mb-0.5">2021 — 2025</div>
+      <div className="mb-4">
+        <div className="flex justify-between items-end">
+          <h2 className="text-black text-lg font-normal">Cornell University</h2>
+          <div className="text-neutral-500 font-normal mb-0.5">2021 — 2025</div>
         </div>
-        <p class="byline">B.S. in Computer Science, Engineering Physics, English</p>
+        <p className="byline">B.S. in Computer Science, Engineering Physics, English</p>
+      </div>
+      <div>
+        <p className='font-medium link'><a href='#coursework'>Technical Coursework</a></p>
+        <p>GPA: 4.1/4.2, Award for Excellence in Physics, Deans List, all years eligible.</p>
       </div>
 
-      <p>GPA: 4.1/4.2, Award for Excellence in Physics, Deans List, all years eligible.</p>
+      <div>
+        <h1 className="font-medium mt-4 mb-1">Teaching</h1>
+        <ul className='space-y-1'>
+          <li>
+            - TA for CS 2110 (Data Structures and Algorithms), Fall 2023
+          </li>
+          <li>
+            - Advised for <a className="link" href="https://en.wikipedia.org/wiki/Governor%27s_School_of_New_Jersey">
+              Governor's School in the Sciences (NJGSS)</a>, Summer 2022
+          </li>
+        </ul>
+      </div>
 
-      <h2 class="font-medium mt-4 mb-1">Teaching:</h2>
-      <ul>
-        <li>
-          TA for CS 2110 (Data Structures and Algorithms), Fall 2023
-        </li>
-        <li>
-          Advised for <a class="link" href="https://en.wikipedia.org/wiki/Governor%27s_School_of_New_Jersey">
-            Governor's School of the Scienes (NJGSS)</a>, Summer 2022
-        </li>
-      </ul>
-
-      <a href='#coursework'><p className=' font-mediium mt-4 mb-1 link'>Technical Coursework</p></a>
-      <h2 class="font-medium mt-4 mb-1">Graduate-level technical coursework:</h2>
-      <ul>
-        <li></li>
-      </ul>
-    </section>
-    <section class="layout py-12">
-      <h2 class="heading">Professional Experience</h2>
-      {/* Stealth Startup. Description: Refined api and developed react front-end for document processing for a stealth startup. */}
-      {/* Invictis BCI, Biotechnology startup ML with document processing */}
-      {/* Tutor for MyMentor. Tutored International students in durign school year */}
 
     </section>
-    <section class="layout py-12">
-      <h2 class="heading">Research Experience</h2>
-    </section>
+    <section className="layout py-12">
+      <h1 className="heading">Professional Experience</h1>
+      <NoLinkList data={data.jobs} ></NoLinkList>
 
-    <section className='layout'><h1 className="heading ">Assorted Accomplishments and Activities</h1>
+    </section>
+    <section className='layout'><h1 className="heading ">Assorted Activities and Accomplishments</h1>
+      <h2 className="text-black text-md font-normal">Activities</h2>
       <ul>
-        {data.random.map((item, index) => <li key={index} className='flex'>
-          <div>{item.title}</div>
-          <div class="flex-grow: 1 align-self: center border-bottom: 1px dashed"></div>
-          <div>{item.desc}</div>
-        </li>)}
+        <li>- Enjoys tennis and working out</li>
+        <li>- Worked as an EMT during COVID (646230)</li>
+        <li>- Rated 1900 in blitz chess; 2300 in puzzles</li>
+        <li>- 16.1s PB solving the Rubiks Cube, Roux method.</li>
+        <li>- Formerly could solve cubes blindfolded.</li>
+        <li>- Can recite poetry</li>
+        <li>- 1590/1600 SAT</li>
+        <li>- Hit masters in Starcraft II</li>
+        <li>- Hit legend in Hearthstone</li>
+        <li>- Memorized 400 digits of pi in middle school</li>
+        <li>- Was featured in a 2010s Minecraft pvp video</li>
+        <li>- Despises OCaml and Verilog for reasons...</li>
+        <li>- Enjoys Yamls </li>
       </ul>
     </section >
 
@@ -70,5 +73,5 @@ export default function Writing() {
       <h1 className='heading pt-12'> Math and Physics </h1>
       <NoLinkList data={data.physcoursework}> </NoLinkList>
     </section>
-  </div>
+  </div >
 }

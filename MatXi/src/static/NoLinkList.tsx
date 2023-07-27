@@ -1,11 +1,10 @@
 import React from 'react'
-import { ArrowUpRight } from 'lucide-react';
 
 type ListItem = {
   title: string;
   desc: string;
   date: string
-  notes: string;
+  notes: string[];
 };
 
 
@@ -13,7 +12,8 @@ type ListItem = {
 export default function LinkList({ data }: { data: ListItem[] }) {
   return <div className="grid gap-y-4">
     {data.map((item, index) =>
-      <>
+      <div key={index} className='block -mx-3 px-3 py-2 hover:bg-neutral-100 transition-colors'
+      >
         <div className="flex flex-col sm:flex-row sm:items-end mb-1.5">
           <div className="text-lg text-black font-normal">
             {item.title}
@@ -22,14 +22,13 @@ export default function LinkList({ data }: { data: ListItem[] }) {
             {item.date}
           </div>
         </div>
-        <div className="text-sm leading-snug font-serif font-light">
+        <div className="text-lg leading-snug font-serif italic pb-2">
           {item.desc}
         </div>
-        <div className="text-xs pt-2 leading-snug font-serif font-light">
-          {item.notes}
-        </div>
-      </>
-    )}
+        <ul className='pl-8 space-y-0.5 text-black font-light'>
+          {item.notes ? item.notes.map((line) => <li>- {line}</li>) : <div />}
+        </ul>
+      </div>)}
   </div>
 
 }

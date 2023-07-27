@@ -51,7 +51,7 @@ export default function About() {
           </p>
           <p className='leading-relaxed'>
             <span className='font-semibold'>Languages:</span> Python · Java · C/C++ · HTML/CSS · Javascript · Wolfram Language · LaTeX <br />
-            <span className='font-semibold'>Frameworks:</span> NextJS · ReactJS · Tailwind · Bootstrap · ROS · Tensorflow/Keras · PyTorch<br />
+            <span className='font-semibold'>Frameworks:</span> NextJS · ReactJS · Tailwind · Yaml · ROS · Tensorflow/Keras · PyTorch<br />
             <span className='font-semibold'>Tools/Services:</span>VSCode · Firebase · MongoDB · Heroku · Git/Github
 
           </p>
