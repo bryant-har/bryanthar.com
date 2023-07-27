@@ -47,7 +47,7 @@ export default function About() {
         <section className='text-sm space-y-4'>
           <h1 className='heading'><span className='text-teal-600'>#</span> Programming</h1>
           <p>
-            I'm personally interested in <b>web development</b>, <b>robotics</b>, and <b>user design</b>. Check out my <a className='link text-blue-400' href='https://github.com/dreamShepherd'>github</a>. I use the following tools:
+            I'm personally interested in <span className='font-semibold'>web development</span>, <span className='font-semibold'>robotics</span>, and <span className='font-semibold'>user design</span>. Check out my <a className='link text-blue-400' href='https://github.com/dreamShepherd'>github</a>. I use the following tools:
           </p>
           <p className='leading-relaxed'>
             <span className='font-semibold'>Languages:</span> Python · Java · C/C++ · HTML/CSS · Javascript · Wolfram Language · LaTeX <br />
