@@ -6,7 +6,7 @@ Writing.getLayout = layout
 export default function Writing() {
   return <div className='py-12'>
     <section className="layout font-light space-y-4">
-      <h1 className="heading">Education</h1>
+      <h1 className="heading"><span className='text-teal-600'>#</span> Education</h1>
 
       <div className="mb-4">
         <div className="flex justify-between items-end">
@@ -36,17 +36,16 @@ export default function Writing() {
 
     </section>
     <section className="layout py-12">
-      <h1 className="heading">Professional Experience</h1>
+      <h1 className="heading"><span className='text-teal-600'>#</span> Professional Experience</h1>
       <NoLinkList data={data.jobs} ></NoLinkList>
 
     </section>
-    <section className='layout'><h1 className="heading ">Assorted Activities and Accomplishments</h1>
-      <h2 className="text-black text-md font-normal">Activities</h2>
-      <ul>
+    <section className='layout pb-12'><h1 className="heading "><span className='text-teal-600'>#</span> Assorted Activities</h1>
+      <ul className='text-sm grid grid-cols-2 text-neutral-700'>
         <li>- Enjoys tennis and working out</li>
         <li>- Worked as an EMT during COVID (646230)</li>
         <li>- Rated 1900 in blitz chess; 2300 in puzzles</li>
-        <li>- 16.1s PB solving the Rubiks Cube, Roux method.</li>
+        <li>- 16.1s PB solving the Rubiks Cube.</li>
         <li>- Formerly could solve cubes blindfolded.</li>
         <li>- Can recite poetry</li>
         <li>- 1590/1600 SAT</li>
@@ -55,7 +54,6 @@ export default function Writing() {
         <li>- Memorized 400 digits of pi in middle school</li>
         <li>- Was featured in a 2010s Minecraft pvp video</li>
         <li>- Despises OCaml and Verilog for reasons...</li>
-        <li>- Enjoys Yamls </li>
       </ul>
     </section >
 
