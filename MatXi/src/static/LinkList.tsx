@@ -4,7 +4,7 @@ import { ArrowUpRight } from 'lucide-react';
 type ListItem = {
   title: string;
   summary: string;
-  subtitle: string
+  date: string
   link: string;
 };
 
@@ -27,7 +27,7 @@ export default function LinkList({ data }: { data: ListItem[] }) {
             <ArrowUpRight size={18} className="inline text-neutral-400" />
           </div>
           <div className="sm:ml-auto mb-0.5 text-neutral-500">
-            {item.subtitle}
+            {item.date}
           </div>
         </div>
         <div className="text-lg leading-snug font-serif italic">

@@ -5,7 +5,7 @@ Arts.getLayout = layout
 
 
 export default function Arts() {
-  return <div className="py-12">
+  return <div className="pt-12">
     <section className="pb-12 layout text-lg">
       <h1 className="heading">Music and Writings</h1>
       <p>
@@ -38,11 +38,11 @@ export default function Arts() {
         </div>
       </section>
     </div >
-    <section id="sheets" className="py-16 layout">
+    <section id="sheets" className="py-12 layout">
       <h1 className="heading">Sheets</h1>
       <LinkList data={data.scores}></LinkList>
     </section>
-    <section id="poems" className="py-16 layout">
+    <section id="poems" className="layout">
       <h1 className="heading">Poetry</h1>
       <LinkList data={data.poems}></LinkList>
     </section>

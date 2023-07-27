@@ -1,3 +1,4 @@
+
     # {/* Nationally Certified EMT DURING COVID */}
     # {/* 1590/1600 SAT, top 1% of class */}
 random:
@@ -9,6 +10,19 @@ random:
     desc: 
   - title:
     desc: 
+jobs:
+  - title: Stealth Startup
+    desc: Developed front-end for internal tools using ReactJS. Fixed bugs in ML pipeline using Pytorch.
+    date: Summer 2023
+    notes: Stealth startup experimenting with LLMs to enhance document parsing APIs.
+  - title: Invictis
+    desc: Developed autoencoders for XGBoost machine learning models to predict hand pose from electromyography waveforms. Wrote data preprocessing scripts for video data in Python.
+    date: Summer 2022
+    notes: New York City-based startup specializing in brain-computer interfaces (BCI). 
+  - title: MyMentor Tutor
+    desc: Provided excellent tutoring and essay-writing services to international students from China, Singapore, among other locations. Further helped prepare 20 clients for college life and culture in the United States.
+    date: Fall 2021 - Present
+    notes: 
 coursework:
   - title: CS 2110 - Data Structures and Algorithms
     desc: General Programming in Java. Testing, Graph-based Algorithms, Dijkstra's / A Star, Recursion, Programming Best Practices, Time Complexity Analysis.
