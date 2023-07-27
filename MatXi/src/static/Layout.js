@@ -19,10 +19,10 @@ const layout = ((page, key) => (
       </motion.div>
     </AnimatePresence>
     <section className='layout'>
-      <ul className='link text-sm mt-16 space-y-2'>
-        <li>Email: <a href='mailto:bryanhar100@gmail.com'>bryanthar100@gmail.com</a></li>
-        <li>Github: <a href='https://github.com/dreamShepherd'>@DreamShepherd</a></li>
-        <li>Linkedin: <a href='https://www.linkedin.com/in/bryant-har-a260ab186/'>@bryant-har</a></li>
+      <ul className='text-sm mt-16 space-y-2'>
+        <li className='link'>Email: <a href='mailto:bryanhar100@gmail.com'>bryanthar100@gmail.com</a></li>
+        <li className='link'>Github: <a href='https://github.com/dreamShepherd'>@DreamShepherd</a></li>
+        <li className='link'>Linkedin: <a href='https://www.linkedin.com/in/bryant-har-a260ab186/'>@bryant-har</a></li>
       </ul>
     </section>
   </div >
