@@ -27,7 +27,11 @@ export default function Projects() {
           <h1 className="heading text-white">Table of Contents</h1>
           <div className="grid grid-cols-2 gap-1 pl-4">
             {projs.map((item, index) => (
-              <a className="link text-neutral-300 hover:text-white hover:underline" key={index} href={`#${item.title}`}>
+              <a
+                className="link text-neutral-300 hover:text-white hover:underline"
+                key={index}
+                href={`#${item.title}`}
+              >
                 {item.title}&nbsp;<b className="text-sm">↓</b>
               </a>
             ))}
@@ -35,6 +39,14 @@ export default function Projects() {
         </section>
       </div>
       <section className="layout pt-12">
+      <div>
+        <img
+          className="mx-auto"
+          width="400"
+          height="auto"
+          src="./static/arm.jpg"/>
+        <p className="text-center font-serif mx-auto text-black font-bold pt-2 pb-6">Franka Emika Panda robotic arm in the lab</p>
+      </div>
         <div className="grid gap-y-4">
           {projs.map((item, index) => (
             <a
