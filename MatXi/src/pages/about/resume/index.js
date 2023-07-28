@@ -17,7 +17,7 @@ export default function Writing() {
       </div>
       <div>
         <p className='font-medium link'><a href='#coursework'>Technical Coursework</a></p>
-        <p>GPA: 4.1/4.2, Award for Excellence in Physics, Deans List, all years eligible.</p>
+        <p>Award for Excellence in Physics, Deans List, all years eligible.</p>
       </div>
 
       <div>
