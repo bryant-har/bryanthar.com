@@ -18,7 +18,7 @@ export default function Resume() {
             </h2>
             <div className="text-neutral-500 font-normal">2021 — 2025</div>
           </div>
-          <p className="text-sm font-serif italic">
+          <p className="font-serif italic">
             B.S. in Computer Science, Engineering Physics, English
           </p>
         </div>
@@ -26,14 +26,14 @@ export default function Resume() {
           <p className="font-normal link text-md">
             <a href="#coursework">Technical Coursework</a>
           </p>
-          <p className="text-sm font-serif italic">
+          <p className="font-serif italic">
             Award for Excellence in Physics, Deans List, all years eligible.
           </p>
         </div>
 
         <div>
           <h1 className="font-light mt-4">Teaching</h1>
-          <ul className="space-y-1 text-sm">
+          <ul className="space-y-1">
             <li>
               - TA for CS 2110 (Data Structures and Algorithms), Fall 2023
             </li>
