@@ -2,33 +2,28 @@ projects:
   - title: Personal Site
     summary: >
       The source code for this website. Written in ReactJS and TS and powered by NextJS. Used TailwindCSS to handle css.
-      Seeking to expand this website with a personal workstation webapp for use in my physics work, named MatXi. It's currently
-      under construction.
+      With plans to expand this website with a personal workstation webapp for use in my physics work, named MatXi.
     date: 1
-    link: https://github.com/dreamShepherd/MatXi  
+    link: https://github.com/dreamShepherd/MatXi
   - title: CRhythmic
     summary: >
       Rhythm game controller written in C using microprocessors.
-      Convert microcontroller accelerometer inputs into computer actuation in rhythm games. 
-      Tilt the controller in each direction and shake to actuate arrow directions and special key inputs
-      in a computer rhythm game like Dance Dance Revolution.
+      Convert microcontroller accelerometer inputs into computer actuation in rhythm games like DDR. 
+      Tilt the controller in each direction and shake to actuate arrow directions and special key inputs.
     date: 2
     link: https://github.com/dreamShepherd/Crhythmic
   - title: Pseudolidar-PointRCNN Fusion
     summary: >
       A key component for Cornell EV team's autonomy stack, which I lead.
       Convert stereo vision into point clouds using depth estimation and perform object segmentation on the 
-      resultant lidar-esque output, hence "pseudolidar". 
-      Part of a computer vision pipeline implementing work by Wang et al. and the PointNet++ architecture.
-      These papers are linked in the repo. 
+      resultant lidar-esque output. Based off work by Wang et al. and the PointNet++ architecture.
     date: 3
     link: https://github.com/dreamShepherd/Pseudolidar-PointRCNN-Fusion/
   - title: Population Dynamics Simulation
     summary: >
       Multi-species population dynamics simulator with visual scripted in OCaml. 
-      We implement Inspiration by my biology cs friend Qifan Wang, who worked alongside us in this project. 
-      Population curves are plotted in real time and differential equations are solved numerically with Runge-Kutta methods.
-      Population models supported include Lotka-Volterra, Replicator, and interspecific competiton with shelter models.
+      Curves plotted in real time and differential equations are solved numerically with Runge-Kutta methods.
+      Population models include Lotka-Volterra, Replicator, and interspecific competiton with shelter models.
     date: 4
     link: https://github.com/dreamShepherd/Multi-Species-Population-Dynamics
   - title: Useful Algorithms
