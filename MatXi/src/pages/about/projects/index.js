@@ -9,7 +9,12 @@ export default function Projects() {
     <section className="pb-12 layout text-lg">
       <h1 className="heading">Projects</h1>
       <p className="pb-4 pt-2">
-        Here's quick overview of my github.
+        A quick overview of my github.
+        My work mostly engages with technical projects and
+        scientific computing. I'm currently designing on a workflow webapp for personal use among friends and
+        looking into contributing to open source, particularly <a href='https://vowpalwabbit.org/' className="link">vowpal wabbit</a>.
+        Some projects are fun, and I aim to work on some open source work.
+        Projects from hackathons and other events and private repos are excluded.
       </p>
     </section >
 
