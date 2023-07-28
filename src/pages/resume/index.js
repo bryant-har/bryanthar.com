@@ -22,17 +22,12 @@ export default function Resume() {
             B.S. in Computer Science, Engineering Physics, English
           </p>
         </div>
-        <div>
-          <p className="font-normal link text-md">
-            <a href="#coursework">Technical Coursework</a>
-          </p>
-          <p className="font-serif italic">
-            Award for Excellence in Physics, Deans List, all years eligible.
-          </p>
-        </div>
+        <p className="font-normal mb-4">
+          Award for Excellence in Physics, with highest honors in field
+        </p>
 
         <div>
-          <h1 className="font-light mt-4">Teaching</h1>
+          <h1 className="font-medium mt-4">Teaching</h1>
           <ul className="space-y-1">
             <li>
               - TA for CS 2110 (Data Structures and Algorithms), Fall 2023
@@ -48,6 +43,12 @@ export default function Resume() {
               , Summer 2022
             </li>
           </ul>
+        </div>
+        <div>
+          <p className="font-medium">Technical Coursework</p>
+          <a className="link" href="#coursework">
+            Graduate-level and undergraduate-level technical coursework
+          </a>
         </div>
       </section>
 
