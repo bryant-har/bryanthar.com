@@ -2,16 +2,13 @@ import * as React from 'react'
 import Head from 'next/head';
 import CssBaseline from '@mui/material/CssBaseline';
 import "../styles.css"
-import Navbar from "../components/Navbar"
 import "@fontsource/newsreader/400-italic.css";
-import { AnimatePresence } from 'framer-motion';
 import { useRouter } from 'next/router';
 
 const defaultLayout = function getLayout(page) {
   return (
     <>
       <CssBaseline />
-      <Navbar />
       {page}
     </>
   );
