@@ -13,6 +13,7 @@ export default function LinkList({ data }: { data: ListItem[] }) {
     <div className="grid gap-y-4">
       {data.map((item, index) => (
         <a
+          id = {item.title}
           key={index}
           href={item.link}
           className="block -mx-3 px-3 py-2 hover:bg-neutral-100 transition-colors"
