@@ -31,32 +31,30 @@ export default function Arts() {
       <div className="bg-gray-900 py-12 text-neutral-200 dark">
         <section className="layout">
           <h1 className="heading text-white">Table of Contents</h1>
-          <div className="grid grid-cols-2 pl-4 text-red-50">
+          <div className="grid grid-cols-2 pl-4">
             <div>
-              <h2 className="text-white pb-2">
-                <a href="#sheets">
-                  {" "}
-                  &nbsp; <span className="link">Sheets Repo</span> &nbsp;
-                  <b className="text-sm">↓</b>
-                </a>
-              </h2>
-              <ul className="pl-2 text-red-50 list-style: none">
+              <h2 className="text-red-50 pb-2 text-md">Sheets</h2>
+              <ul className="link text-neutral-300 hover:text-white hover:underline pl-2 list-style: none">
                 {data.scores.map((item, index) => (
-                  <li key={index}> {item.title}</li>
+                  <li key={index}>
+                    {" "}
+                    <a className="link" href={`#${item.title}`}>
+                      {item.title}&nbsp;<b className="text-sm">↓</b>
+                    </a>
+                  </li>
                 ))}
               </ul>
             </div>
             <div>
-              <h2 className="text-white pb-2">
-                <a href="#poems">
-                  {" "}
-                  &nbsp; <span className="link">Poetry</span> &nbsp;{" "}
-                  <b className="text-sm">↓</b>
-                </a>
-              </h2>
-              <ul className="pl-2 text-red-50">
-                {data.poems.map((item, index) => (
-                  <li key={index}>{item.title}</li>
+              <h2 className="text-red-50 pb-2">Poetry </h2>
+              <ul className="pl-2 list-style: none">
+                {data.scores.map((item, index) => (
+                  <li key={index}>
+                    {" "}
+                    <a className="link text-neutral-300 hover:text-white hover:underline" href={`#${item.title}`}>
+                      {item.title}&nbsp;<b className="text-sm">↓</b>
+                    </a>
+                  </li>
                 ))}
               </ul>
             </div>

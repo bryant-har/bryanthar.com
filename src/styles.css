@@ -3,28 +3,25 @@
 @tailwind utilities;
 
 @layer base {
-  html { 
-    @apply scroll-smooth
+  html {
+    @apply scroll-smooth;
   }
   hr {
     @apply border-neutral-200;
   }
-  
 }
 
-
 @layer components {
-
   .gem {
     @apply text-neutral-400;
   }
 
   .link {
-    @apply underline underline-offset-[3px] decoration-neutral-400 dark:decoration-neutral-500;
-    @apply hover:text-blue-300 hover:decoration-black transition-colors;
+    @apply underline underline-offset-[3px];
+    @apply hover:text-blue-300 transition-colors;
   }
   .section {
-    @apply layout space-y-4 pt-12
+    @apply layout space-y-4 pt-12;
   }
   .layout {
     @apply max-w-screen-md mx-auto px-4 sm:px-6 text-neutral-700;

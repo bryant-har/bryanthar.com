@@ -25,9 +25,11 @@ export default function Projects() {
       <div className="bg-gray-900 py-12 text-neutral-200 dark">
         <section className="layout">
           <h1 className="heading text-white">Table of Contents</h1>
-          <div className="grid grid-cols-2 pl-4 text-red-50">
+          <div className="grid grid-cols-2 gap-1 pl-4">
             {projs.map((item, index) => (
-              <li key={index}> {item.title}</li>
+              <a className="link text-neutral-300 hover:text-white hover:underline" key={index} href={`#${item.title}`}>
+                {item.title}&nbsp;<b className="text-sm">↓</b>
+              </a>
             ))}
           </div>
         </section>
