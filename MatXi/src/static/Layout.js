@@ -20,7 +20,7 @@ const layout = ((page, key) => (
       </motion.div>
     </AnimatePresence>
     <section className='layout'>
-      <ul className='text-sm font-light mt-16 space-y-1.5'>
+      <ul className='text-sm font-light mt-8 space-y-1.5'>
         <li className='link'>Email: <a href='mailto:bryanhar100@gmail.com'>bryanthar100@gmail.com</a></li>
         <li className='link'>Github: <a href='https://github.com/dreamShepherd'>@DreamShepherd</a></li>
         <li className='link'>Linkedin: <a href='https://www.linkedin.com/in/bryant-har-a260ab186/'>@bryant-har</a></li>

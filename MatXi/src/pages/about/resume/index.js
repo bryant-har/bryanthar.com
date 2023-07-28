@@ -4,7 +4,7 @@ import { layout } from "../../../static/Layout.js"
 Writing.getLayout = layout
 
 export default function Writing() {
-  return <div className='py-12'>
+  return <div className='pt-12'>
     <section className="layout font-light space-y-4">
       <h1 className="heading"><span className='text-teal-600'>#</span> Education</h1>
 
