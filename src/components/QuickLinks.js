@@ -37,7 +37,7 @@ export default function QuickLinks() {
         <a href="https://www.linkedin.com/in/bryant-har-a260ab186/">
           <Image width="24" height="auto" src={linkedin}/>
         </a>
-        <a href="mailto:bryanthar100@gmail.com">
+        <a href="mailto:bhar@bryanthar.com">
           <Mail />
         </a>
       </div>

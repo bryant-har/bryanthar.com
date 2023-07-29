@@ -21,7 +21,7 @@ const layout = (page, key) => (
       <ul className="text-sm font-light mt-8 space-y-1.5">
         <li className="link">
           Email:{" "}
-          <a href="mailto:bryanhar100@gmail.com">bryanthar100@gmail.com</a>
+          <a href="mailto:bhar@bryanthar.com">bhar@bryanthar.com</a>
         </li>
         <li className="link">
           Github: <a href="https://github.com/dreamShepherd">@DreamShepherd</a>
