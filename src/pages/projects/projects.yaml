@@ -34,7 +34,7 @@ projects:
     link: https://github.com/dreamShepherd/Multi-Species-Population-Dynamics
   - title: RLScratch
     summary: >
-      A collection of reinforcement learning techniques and implementations for future reference. 
+      A collection of reinforcement learning techniques and implementations written from scratch for future reference. 
       Environments taken from OpenAI gym. Includes Q-Learning, transfer learning, Markov Decision Processes, REINFORCE algorithm,
       Behavior Cloning, among others.
     date: 6
