@@ -10,8 +10,8 @@ export default function Projects() {
       <section className="pb-12 layout text-lg">
         <h1 className="heading">Projects</h1>
         <p className="pb-4 pt-2">
-          A quick overview of my github. I'm currently designing on a workflow
-          webapp for personal use among friends and looking into contributing to
+          A quick overview of my github. I'm currently designing a workstation
+          webapp and planning on contributing to
           open source, particularly{" "}
           <a href="https://vowpalwabbit.org/" className="link">
             vowpal wabbit
