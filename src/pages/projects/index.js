@@ -41,7 +41,7 @@ export default function Projects() {
       <section className="layout pt-12">
         <div>
           <img
-            loading="lazy"
+            loading="eager"
             className="mx-auto"
             width="400"
             height="auto"
