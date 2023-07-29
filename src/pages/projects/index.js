@@ -54,6 +54,7 @@ export default function Projects() {
           {projs.map((item, index) => (
             <a
               key={index}
+              id = {item.title}
               href={item.link}
               className="block -mx-3 px-3 py-2 hover:bg-neutral-100 transition-colors"
               target="_blank"
