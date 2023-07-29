@@ -51,7 +51,10 @@ export default function Arts() {
                 {data.scores.map((item, index) => (
                   <li key={index}>
                     {" "}
-                    <a className="link text-neutral-300 hover:text-white hover:underline" href={`#${item.title}`}>
+                    <a
+                      className="link text-neutral-300 hover:text-white hover:underline"
+                      href={`#${item.title}`}
+                    >
                       {item.title}&nbsp;<b className="text-sm">↓</b>
                     </a>
                   </li>

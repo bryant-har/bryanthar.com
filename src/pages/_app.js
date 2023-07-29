@@ -19,10 +19,6 @@ export default function App({ Component, Props }) {
 
   return (
     <>
-      <Seo
-        title="Bryant Har"
-        description="Software engineer, researcher, and designer. Making meaningful systems and interfaces for people."
-      />
       <Head>
         <title>Bryant Har</title>
         <meta name="description" content="Software engineer, researcher, physicist, and designer. Meaningful systems and user interfaces"></meta>

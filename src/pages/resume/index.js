@@ -56,6 +56,19 @@ export default function Resume() {
         <h1 className="heading">
           <span className="text-teal-600">#</span> Programming
         </h1>
+        <p>
+          I'm interested in{" "}
+          <span className="font-semibold">statistical analysis</span>,{" "}
+          <span className="font-semibold">machine learning</span>, and{" "}
+          <span className="font-semibold">user design</span>. Check out my{" "}
+          <a
+            className="link text-blue-400"
+            href="https://github.com/dreamShepherd"
+          >
+            github
+          </a>
+          . I use the following tools:
+        </p>
         <p className="leading-relaxed text-sm">
           <span className="font-semibold">Languages:</span> Python · Java ·
           C/C++ · HTML/CSS · Javascript · Wolfram Language · LaTeX <br />

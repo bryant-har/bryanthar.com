@@ -14,7 +14,7 @@ export default function About() {
         <br />
         researcher<span className="gem">.</span>
       </p>
-      <QuickLinks/>
+      <QuickLinks />
 
       <div className="space-y-8">
         <section className="space-y-4 text-md">
@@ -38,7 +38,7 @@ export default function About() {
             <span className="text-teal-600">#</span> Programming
           </h1>
           <p>
-            I'm personally interested in{" "}
+            I'm interested in{" "}
             <span className="font-semibold">web development</span>,{" "}
             <span className="font-semibold">robotics</span>, and{" "}
             <span className="font-semibold">user design</span>. Check out my{" "}
