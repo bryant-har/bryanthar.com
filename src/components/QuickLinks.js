@@ -2,10 +2,10 @@ import { Mail } from "lucide-react";
 import Image from 'next/image'
 import Typewriter from "typewriter-effect";
 import doge from '../../public/static/ico.png'
-import git from '../../public/static/github.png'
-import disc from '../../public/static/discord.png'
-import linkedin from '../../public/static/linkedin.png'
-import chess from '../../public/static/lichess.ico'
+import git from '../../public/static/github.svg'
+import disc from '../../public/static/discord.svg'
+import linkedin from '../../public/static/linkedin.svg'
+import chess from '../../public/static/lichess.svg'
 
 
 export default function QuickLinks() {
@@ -25,20 +25,20 @@ export default function QuickLinks() {
         />
       </div>
       <div className="flex items-center justify-center space-x-1">
+        <a href="https://lichess.org/@/DreamShepherd">
+          <Image width="27" height="auto" src={chess}/>{" "}
+        </a>
+        <a href="https://www.linkedin.com/in/bryant-har-a260ab186/">
+          <Image width="23" height="auto" src={linkedin}/>
+        </a>
         <a href="https://github.com/dreamShepherd">
           <Image width="24" height="auto" src={git}/>
         </a>
-        <a href="https://lichess.org/@/DreamShepherd">
-          <Image width="24" height="auto" src={chess}/>{" "}
-        </a>
         <a href="https://discordapp.com/users/bryant3435">
-          <Image width="24" height="auto" src={disc}/>
-        </a>
-        <a href="https://www.linkedin.com/in/bryant-har-a260ab186/">
-          <Image width="24" height="auto" src={linkedin}/>
+          <Image width="25" height="auto" src={disc}/>
         </a>
         <a href="mailto:bhar@bryanthar.com">
-          <Mail />
+          <Mail size = {26}/>
         </a>
       </div>
     </div>
