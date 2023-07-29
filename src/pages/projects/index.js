@@ -10,15 +10,12 @@ export default function Projects() {
       <section className="pb-12 layout text-lg">
         <h1 className="heading">Projects</h1>
         <p className="pb-4 pt-2">
-          A quick overview of my github. I'm currently designing a workstation
-          webapp and planning on contributing to
-          open source, particularly{" "}
+          A quick overview of my github. I'm interested in future projects with
+          open source, particularly
           <a href="https://vowpalwabbit.org/" className="link">
             vowpal wabbit
           </a>
-          . Some projects are fun, and I aim to work on some open source work.
-          Projects from hackathons and other events and private repos are
-          excluded.
+          . I typically enjoy the design-side of user experience.
         </p>
       </section>
 
@@ -55,7 +52,7 @@ export default function Projects() {
           {projs.map((item, index) => (
             <a
               key={index}
-              id = {item.title}
+              id={item.title}
               href={item.link}
               className="block -mx-3 px-3 py-2 hover:bg-neutral-100 transition-colors"
               target="_blank"
