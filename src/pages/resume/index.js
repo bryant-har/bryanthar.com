@@ -86,7 +86,8 @@ export default function Resume() {
         </h1>
         <NoLinkList data={data.jobs}></NoLinkList>
       </section>
-      <section className="layout pb-12">
+      
+      <section className="section pb-12">
         <h1 className="heading ">
           <span className="text-teal-600">#</span> Fun Facts{" "}
         </h1>
