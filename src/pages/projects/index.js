@@ -10,12 +10,12 @@ export default function Projects() {
       <section className="pb-12 layout text-lg">
         <h1 className="heading">Projects</h1>
         <p className="pb-4 pt-2">
-          A quick overview of my github. I'm interested in future projects with
-          open source, particularly
-          <a href="https://vowpalwabbit.org/" className="link">
-            vowpal wabbit
-          </a>
-          . I typically enjoy the design-side of user experience.
+          A quick overview of my github. Much of it is technical projects, but I
+          also enjoy the design-side of user experience. Reach out {" "}
+          <a className="link" href="mailto:bhar@bryanthar.com">
+            here
+          </a>{" "}
+          if you'd like to design something together!
         </p>
       </section>
 

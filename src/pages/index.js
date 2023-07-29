@@ -50,14 +50,17 @@ export default function About() {
             </a>
             . I use the following tools:
           </p>
-          <p className="leading-relaxed">
+          <p className="leading-relaxed text-sm">
             <span className="font-semibold">Languages:</span> Python · Java ·
             C/C++ · HTML/CSS · Javascript · Wolfram Language · LaTeX <br />
             <span className="font-semibold">Frameworks:</span> NextJS · ReactJS
             · Tailwind · Yaml · ROS · Tensorflow/Keras · PyTorch
             <br />
             <span className="font-semibold">Tools/Services:</span> VSCode ·
-            Firebase · MongoDB · Heroku · Git/Github
+            MongoDB · Heroku · Git/Github ·{" "}
+            <a href="https://vowpalwabbit.org/" className="link">
+              Vowpal Wabbit
+            </a>
           </p>
         </section>
         <section className=" text-sm space-y-4">
@@ -84,7 +87,8 @@ export default function About() {
             </a>
             , studying how we can apply computer vision techniques to map lunar
             materials and regolith from stereo images. Before that, I worked on
-            quantifying the effects of decoherence in the variational quantum eigensolver.
+            quantifying the effects of decoherence in the variational quantum
+            eigensolver.
           </p>
         </section>
       </div>

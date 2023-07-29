@@ -76,7 +76,10 @@ export default function Resume() {
           Tailwind · Yaml · ROS · Tensorflow/Keras · PyTorch
           <br />
           <span className="font-semibold">Tools/Services:</span> VSCode ·
-          Firebase · MongoDB · Heroku · Git/Github
+          MongoDB · Heroku · Git/Github ·{" "}
+          <a href="https://vowpalwabbit.org/" className="link">
+            Vowpal Wabbit
+          </a>
         </p>
       </section>
 
@@ -86,7 +89,7 @@ export default function Resume() {
         </h1>
         <NoLinkList data={data.jobs}></NoLinkList>
       </section>
-      
+
       <section className="section pb-12">
         <h1 className="heading ">
           <span className="text-teal-600">#</span> Fun Facts{" "}
