@@ -1,11 +1,11 @@
 import Header from "./Header";
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Copyright } from "lucide-react";
+import { ArrowUpToLine, Copyright } from "lucide-react";
 
 const layout = (page, key) => (
   <>
-    <div className="margin">
+    <div className="margin" id = 'top'>
       <Header />
       <AnimatePresence mode="wait">
         <motion.div
@@ -43,6 +43,10 @@ const layout = (page, key) => (
           </li>
         </ul>
       </section>
+    </div>
+    
+    <div className="flex justify-end pb-8 pr-16">
+      <a href = '#top'><ArrowUpToLine size = {36}/></a>
     </div>
     <div className="text-xs opacity-50 pb-2 font-sans">
       <p className="flex place-content-center space-x-0.5">
