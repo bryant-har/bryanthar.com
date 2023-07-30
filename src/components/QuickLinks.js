@@ -17,10 +17,16 @@ export default function QuickLinks() {
         width="100"
         src={doge}
       />
-      <div className="heading text-2xl text-center mb-2 text-slate-500">
+      <div className="heading text-2xl pl-1 text-center mb-2 text-slate-500">
         <Typewriter
+          options={{
+            delay:100
+          }}
+        
+
+        
           onInit={(typewriter) => {
-            typewriter.typeString("Quick Links").start();
+            typewriter.typeString(" Quick Links").start();
           }}
         />
       </div>
