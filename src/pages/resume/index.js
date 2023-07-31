@@ -96,14 +96,16 @@ export default function Resume() {
         </h1>
         <ul className="text-sm grid gap-1  grid-cols-2 text-neutral-700">
           <li>- Was an EMT during COVID (646230)</li>
+          <li>- Enjoys tennis, rock climbing, and pool</li>
           <li>- Rated 1900 in blitz chess; 2300 in puzzles</li>
           <li>- 16.1s PB solving the Rubiks Cube.</li>
-          <li>- Formerly could solve cubes blindfolded.</li>
+          <li>- Used to solve cubes blindfolded.</li>
           <li>- Can recite 8 poems</li>
           <li>- 1590/1600 SAT</li>
           <li>- Hit masters in Starcraft II</li>
           <li>- Hit legend in Hearthstone</li>
           <li>- Memorized 400 digits of pi once</li>
+          <li>- 1:38 PB in <a href= 'setwithfriends.com'>SET</a></li>
           <li>- Despises OCaml and Verilog...</li>
         </ul>
       </section>
