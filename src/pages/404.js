@@ -18,15 +18,8 @@ export default function Error() {
   }, []);
 
   return (
-    <a href="/">
-      <div className="grid h-screen place-items-center">
-        <div>
-          <h1 className="text-center heading">
-            Click Anywhere to Return to About Page
-          </h1>
+    <a className = 'h-screen flex justify-center bg-black' href="/">
           <img src={img} alt="404 Missing Page" />
-        </div>
-      </div>
     </a>
   );
 }
