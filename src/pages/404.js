@@ -18,15 +18,15 @@ export default function Error() {
   }, []);
 
   return (
-    <>
+    <a href="/">
       <div className="grid h-screen place-items-center">
         <div>
           <h1 className="text-center heading">
-            <a href="/about/">Click Here to Return to About Page</a>
+            Click Anywhere to Return to About Page
           </h1>
           <img src={img} alt="404 Missing Page" />
         </div>
       </div>
-    </>
+    </a>
   );
 }
