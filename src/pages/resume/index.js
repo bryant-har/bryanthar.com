@@ -105,7 +105,7 @@ export default function Resume() {
           <li>- Hit masters in Starcraft II</li>
           <li>- Hit legend in Hearthstone</li>
           <li>- Memorized 400 digits of pi once</li>
-          <li>- 1:38 PB in <span classname = 'link'><a href= 'setwithfriends.com'>SET</a></span></li>
+          <li>- 1:38 PB in <a className = 'link' href= 'setwithfriends.com'>SET</a></li>
           <li>- Despises OCaml and Verilog...</li>
         </ul>
       </section>
