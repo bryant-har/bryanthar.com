@@ -101,11 +101,11 @@ export default function Resume() {
           <li>- 16.1s PB solving the Rubiks Cube.</li>
           <li>- Used to solve cubes blindfolded.</li>
           <li>- Can recite 8 poems</li>
-          <li>- 1590/1600 SAT</li>
+          <li>- 1590/1600 SAT while sick</li>
           <li>- Hit masters in Starcraft II</li>
           <li>- Hit legend in Hearthstone</li>
           <li>- Memorized 400 digits of pi once</li>
-          <li>- 1:38 PB in <a href= 'setwithfriends.com'>SET</a></li>
+          <li>- 1:38 PB in <a classname = 'link' href= 'setwithfriends.com'>SET</a></li>
           <li>- Despises OCaml and Verilog...</li>
         </ul>
       </section>
