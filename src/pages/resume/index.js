@@ -23,7 +23,7 @@ export default function Resume() {
           </p>
         </div>
         <p className="font-normal mb-4">
-          Award for Excellence in Physics, with highest honors in field
+          Thomas Binu Scholar, Award for Excellence in Physics, with highest honors in field
         </p>
 
         <div>
