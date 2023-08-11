@@ -22,8 +22,10 @@ export default function Resume() {
             B.S. in Computer Science, Engineering Physics, English
           </p>
         </div>
-        <p className="font-normal mb-4">
-          Binu Thomas Scholar, Award for Excellence in Physics, with highest honors in field
+        <p className="font-small mb-4">
+          Binu Thomas Scholar, 
+          Award for Excellence in Physics, 
+          with highest honors in field
         </p>
 
         <div>
