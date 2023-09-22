@@ -89,7 +89,11 @@ export default function Resume() {
         <h1 className="heading">
           <span className="text-teal-600">#</span> Professional Experience
         </h1>
-        <NoLinkList data={data.jobs}></NoLinkList>
+        <h2 className="italic bg-center font-semibold"> <span className=" font-semibold"> Redacted </span> </h2>
+
+        <h2 className=" px-5 text-sm"> Anonymized and redacted due to recent events. But feel free to email me for the most recent iteration of my CV.</h2>
+
+        {/* <NoLinkList data={data.jobs}></NoLinkList> */}
       </section>
 
       <section className="section pb-12">
