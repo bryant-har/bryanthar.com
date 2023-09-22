@@ -106,7 +106,7 @@ export default function Resume() {
           <li>- Rated 1900 in blitz chess; 2300 in puzzles</li>
           <li>- 16.1s PB solving the Rubiks Cube.</li>
           <li>- Used to solve cubes blindfolded.</li>
-          <li>- Can recite 8 poems</li>
+          <li>- Can recite 7 poems</li>
           <li>- 1590/1600 SAT while sick</li>
           <li>- Hit masters in Starcraft II</li>
           <li>- Hit legend in Hearthstone</li>
