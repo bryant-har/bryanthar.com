@@ -103,16 +103,16 @@ export default function Resume() {
         <ul className="text-sm grid gap-1  grid-cols-2 text-neutral-700">
           <li>- Was an EMT during COVID (#646230)</li>
           <li>- Enjoys tennis, rock climbing, and pool</li>
-          <li>- Rated 1900 in blitz chess; 2300 in puzzles</li>
-          <li>- 16.1s PB solving the Rubiks Cube.</li>
-          <li>- Used to solve cubes blindfolded.</li>
-          <li>- Can recite 7 poems</li>
-          <li>- 1590/1600 SAT while sick</li>
+          <li>- Rated 1800 in blitz chess; 2300 puzzles</li>
+          <li>- 16.1s PB solving the Rubiks Cube</li>
+          <li>- Used to solve cubes blindfolded</li>
+          <li>- Can recite six poems</li>
+          <li>- 1590/1600 SAT first try while sick</li>
           <li>- Hit masters in Starcraft II</li>
           <li>- Hit legend in Hearthstone</li>
           <li>- Memorized 400 digits of pi once</li>
           <li>- 1:34 PB in <a className = 'link' href= 'setwithfriends.com'>SET</a></li>
-          <li>- Despises OCaml and Verilog...</li>
+          <li>- Verilog sucks...</li>
         </ul>
       </section>
 
