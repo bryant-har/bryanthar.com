@@ -19,8 +19,15 @@ export default function Resume() {
             <div className="text-neutral-500 font-normal">2021 — 2025</div>
           </div>
           <p className="font-serif italic">
-            B.S. in Computer Science, Engineering Physics, English
+            B.S. in Computer Sciences
           </p>
+          <p className="font-serif italic">
+            B.S. in Engineering Physics
+          </p>
+          <p className="font-serif italic">
+            B.S. in Electrical and Computer Engineering
+          </p>
+
         </div>
         <p className="font-small mb-4">
           Binu Thomas Scholar, 
