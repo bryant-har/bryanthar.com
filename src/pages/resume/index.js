@@ -19,13 +19,13 @@ export default function Resume() {
             <div className="text-neutral-500 font-normal">2021 — 2025</div>
           </div>
           <p className="font-serif italic">
-            B.S. in Computer Sciences
+            B.S. Computer Sciences
           </p>
           <p className="font-serif italic">
-            B.S. in Engineering Physics
+            B.S. Engineering Physics
           </p>
           <p className="font-serif italic">
-            B.S. in Electrical and Computer Engineering
+            B.S. Electrical and Computer Engineering
           </p>
 
         </div>
