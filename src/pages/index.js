@@ -87,8 +87,8 @@ export default function About() {
             </a>
             , studying how we can apply computer vision techniques to map lunar
             materials and regolith from stereo images. Before that, I worked on
-            quantifying the effects of decoherence in the variational quantum
-            eigensolver.
+            researching quantum algorithms. Specifically, our research involved quantifying the effects of decoherence in the variational quantum
+            eigensolver. 
           </p>
         </section>
       </div>
