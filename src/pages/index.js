@@ -93,7 +93,7 @@ export default function About() {
         </section>
         <section className="pb-12">
         <h1 className="heading ">
-          <span className="text-teal-600">#</span> Some Fun Facts (Maybe?){" "}
+          <span className="text-teal-600">#</span> Some (Possibly?) Fun Facts {" "}
         </h1>
         <ul className="text-sm grid gap-1  grid-cols-2 text-neutral-700">
           <li>- Was an EMT during COVID (#646230)</li>
