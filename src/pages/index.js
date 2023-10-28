@@ -63,7 +63,7 @@ export default function About() {
             </a>
           </p>
         </section>
-        <section className=" text-sm space-y-4">
+        <section className="text-sm space-y-4">
           <h1 className="heading">
             {" "}
             <span className="text-teal-600">#</span> Research
@@ -91,6 +91,26 @@ export default function About() {
             eigensolver. 
           </p>
         </section>
+        <section className="pb-12">
+        <h1 className="heading ">
+          <span className="text-teal-600">#</span> Some Fun Facts (Maybe?){" "}
+        </h1>
+        <ul className="text-sm grid gap-1  grid-cols-2 text-neutral-700">
+          <li>- Was an EMT during COVID (#646230)</li>
+          <li>- Rated 1800 in blitz chess; 2500 puzzles</li>
+          <li>- 16.1s PB solving the Rubiks Cube</li>
+          <li>- Used to solve cubes blindfolded</li>
+          <li>- Can recite six poems</li>
+          <li>- Hit masters in Starcraft II</li>
+          <li>- Hit legend in Hearthstone</li>
+          <li>- 1:34 PB in <a className = 'link' href= 'setwithfriends.com'>SET</a></li>
+          <li>- Enjoys tennis, rock climbing, and pool</li>
+          <li>- Verilog sucks...</li>
+          <li>- 1590/1600 SAT first try while sick</li>
+          <li>- Memorized 400 digits of pi once</li>
+        </ul>
+      </section>
+
       </div>
     </div>
   );

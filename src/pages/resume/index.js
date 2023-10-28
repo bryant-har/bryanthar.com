@@ -110,7 +110,7 @@ export default function Resume() {
         <ul className="text-sm grid gap-1  grid-cols-2 text-neutral-700">
           <li>- Was an EMT during COVID (#646230)</li>
           <li>- Enjoys tennis, rock climbing, and pool</li>
-          <li>- Rated 1800 in blitz chess; 2300 puzzles</li>
+          <li>- Rated 1800 in blitz chess; 2500 puzzles</li>
           <li>- 16.1s PB solving the Rubiks Cube</li>
           <li>- Used to solve cubes blindfolded</li>
           <li>- Can recite six poems</li>
