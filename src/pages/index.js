@@ -38,7 +38,9 @@ export default function About() {
         </h1>
         <ul className="text-sm grid gap-1  grid-cols-2 text-neutral-700">
           <li>- Memorized 400 digits of pi once</li>
-          <li>- Was an EMT during COVID (#646230)</li>
+          <li>- Was an EMT during COVID{" "}
+             <a className = 'link' href= "/remarks#emt">#646230</a></li>
+            
           <li>- 1590/1600 SAT first try while sick</li>
           <li>- Rated 1800 in blitz chess; 2500 puzzles</li>
           <li>- 16.1s PB solving the Rubiks Cube</li>
@@ -108,8 +110,7 @@ export default function About() {
             researching quantum algorithms. Specifically, our research involved quantifying the effects of decoherence in the variational quantum
             eigensolver. 
           </p>
-        </section>
-
+        </section >
       </div>
     </div>
   );
