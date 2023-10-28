@@ -24,8 +24,7 @@ export default function About() {
             <span className="text-blue-500">computer science</span> and{" "}
             <span className="text-blue-500">English</span> at{" "}
             <b>Cornell University</b>. My academic interests involve
-            reinforcement learning and robotics, though I try to be a
-            generalist.
+            reinforcement learning and robotics.
           </p>
           <p>
             My professional experience involves machine learning and statistical
@@ -33,6 +32,25 @@ export default function About() {
             memorizing poetry, and listening to music.
           </p>
         </section>
+        <section>
+        <h1 className="heading ">
+          <span className="text-teal-600">#</span> Some (Possibly?) Fun Facts {" "}
+        </h1>
+        <ul className="text-sm grid gap-1  grid-cols-2 text-neutral-700">
+          <li>- Memorized 400 digits of pi once</li>
+          <li>- Was an EMT during COVID (#646230)</li>
+          <li>- 1590/1600 SAT first try while sick</li>
+          <li>- Rated 1800 in blitz chess; 2500 puzzles</li>
+          <li>- 16.1s PB solving the Rubiks Cube</li>
+          <li>- Used to solve cubes blindfolded</li>
+          <li>- Can recite six poems</li>
+          <li>- Hit masters in Starcraft II</li>
+          <li>- Hit legend in Hearthstone</li>
+          <li>- 1:34 PB in <a className = 'link' href= 'setwithfriends.com'>SET</a></li>
+          <li>- Enjoys tennis, rock climbing, and pool</li>
+          <li>- Verilog sucks...</li>
+        </ul>
+      </section>
         <section className="text-sm space-y-4">
           <h1 className="heading">
             <span className="text-teal-600">#</span> Programming
@@ -91,25 +109,6 @@ export default function About() {
             eigensolver. 
           </p>
         </section>
-        <section className="pb-12">
-        <h1 className="heading ">
-          <span className="text-teal-600">#</span> Some (Possibly?) Fun Facts {" "}
-        </h1>
-        <ul className="text-sm grid gap-1  grid-cols-2 text-neutral-700">
-          <li>- Was an EMT during COVID (#646230)</li>
-          <li>- Rated 1800 in blitz chess; 2500 puzzles</li>
-          <li>- 16.1s PB solving the Rubiks Cube</li>
-          <li>- Used to solve cubes blindfolded</li>
-          <li>- Can recite six poems</li>
-          <li>- Hit masters in Starcraft II</li>
-          <li>- Hit legend in Hearthstone</li>
-          <li>- 1:34 PB in <a className = 'link' href= 'setwithfriends.com'>SET</a></li>
-          <li>- Enjoys tennis, rock climbing, and pool</li>
-          <li>- Verilog sucks...</li>
-          <li>- 1590/1600 SAT first try while sick</li>
-          <li>- Memorized 400 digits of pi once</li>
-        </ul>
-      </section>
 
       </div>
     </div>
