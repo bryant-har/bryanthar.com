@@ -20,9 +20,9 @@ export default function About() {
         <section className="space-y-4 text-md">
           <p>
             Hello! I currently study{" "}
-            <span className="text-blue-500">physics</span> and{" "}
+            <span className="text-blue-500">engineering physics</span> and{" "}
             <span className="text-blue-500">computer science</span> and{" "}
-            <span className="text-blue-500">English</span> at{" "}
+            <span className="text-blue-500">electrical engineering</span> at{" "}
             <b>Cornell University</b>. My academic interests involve
             reinforcement learning and robotics.
           </p>
