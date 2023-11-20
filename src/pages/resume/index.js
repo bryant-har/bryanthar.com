@@ -119,7 +119,7 @@ export default function Resume() {
           <li>- Can recite six poems</li>
           <li>- Hit masters in Starcraft II</li>
           <li>- Hit legend in Hearthstone</li>
-          <li>- 1:34 PB in <a className = 'link' href= 'setwithfriends.com'>SET</a></li>
+          <li>- 1:34 PB in <a className = 'link' href= 'https://www.setwithfriends.com'>SET</a></li>
           <li>- Enjoys tennis, rock climbing, and pool</li>
           <li>- Verilog sucks...</li>
         </ul>
