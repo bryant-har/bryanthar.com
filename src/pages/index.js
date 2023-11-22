@@ -90,7 +90,8 @@ export default function About() {
           </h1>
           <p>
             My current research focus is applying machine learning to the
-            sciences. I'm part of an ongoing research project applying machine
+            sciences. I'm currently in between labs. 
+            {/* part of an ongoing research project applying machine
             learning to optimize{" "}
             <a
               className="link text-blue-400"
@@ -108,7 +109,7 @@ export default function About() {
             , studying how we can apply computer vision techniques to map lunar
             materials and regolith from stereo images. Before that, I worked on
             researching quantum algorithms. Specifically, our research involved quantifying the effects of decoherence in the variational quantum
-            eigensolver. 
+            eigensolver.  */}
           </p>
         </section >
       </div>
