@@ -24,7 +24,7 @@ export default function About() {
             <span className="text-blue-500">computer science</span> and{" "}
             <span className="text-blue-500">electrical engineering</span> at{" "}
             <b>Cornell University</b>. My academic interests involve
-            reinforcement learning and robotics.
+            reinforcement learning and robotics. I am currently working at Snowflake for the spring in software engineering.
           </p>
           <p>
             My professional experience involves machine learning and statistical
